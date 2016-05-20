@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Export-Package: com.example.expensebom02;version="1.0.0.qualifier",com
+ .example.expensebom02.impl;version="1.0.0.qualifier",com.example.expe
+ nsebom02.util;version="1.0.0.qualifier",com.example.expensebom02.bdsu
+ til;version="1.0.0.qualifier"
+Globaldata: true
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: ., bin/
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: %providerName
+Bundle-Version: 1.0.0.qualifier
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.example.expensebom02.bdsutil.BDSActivator
+Bundle-SymbolicName: com.example.expensebom02.bds;singleton:=false
+Import-Package: javax.xml.datatype;version="[1.3.0,2.0.0)",javax.xml.p
+ arsers;version="[1.3.0,2.0.0)",javax.xml.transform;version="[1.3.0,2.
+ 0.0)",javax.xml.transform.sax;version="[1.3.0,2.0.0)",javax.xml.trans
+ form.stream;version="[1.3.0,2.0.0)",javax.xml.transform.dom;version="
+ [1.3.0,2.0.0)",javax.xml.validation;version="[1.3.0,2.0.0)",org.osgi.
+ framework;version="[1.4.0,2.0.0)",org.eclipse.emf.common;version="[0.
+ 0.0,3.0.0)",org.eclipse.emf.common.notify;version="[0.0.0,3.0.0)",org
+ .eclipse.emf.common.notify.impl;version="[0.0.0,3.0.0)",org.eclipse.e
+ mf.common.util;version="[0.0.0,3.0.0)",org.eclipse.emf.ecore;version=
+ "[0.0.0,3.0.0)",org.eclipse.emf.ecore.impl;version="[0.0.0,3.0.0)",or
+ g.eclipse.emf.ecore.plugin;version="[0.0.0,3.0.0)",org.eclipse.emf.ec
+ ore.resource;version="[0.0.0,3.0.0)",org.eclipse.emf.ecore.resource.i
+ mpl;version="[0.0.0,3.0.0)",org.eclipse.emf.ecore.util;version="[0.0.
+ 0,3.0.0)",org.eclipse.emf.ecore.xmi;version="[0.0.0,3.0.0)",org.eclip
+ se.emf.ecore.xmi.impl;version="[0.0.0,3.0.0)",org.eclipse.emf.ecore.x
+ mi.util;version="[0.0.0,3.0.0)",org.eclipse.emf.ecore.xml.type;versio
+ n="[0.0.0,3.0.0)",org.eclipse.emf.ecore.xml.type.util;version="[0.0.0
+ ,3.0.0)",org.xml.sax;version="[2.0.2,3.0.0)"
+

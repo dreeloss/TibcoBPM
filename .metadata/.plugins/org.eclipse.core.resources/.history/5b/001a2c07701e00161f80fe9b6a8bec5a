@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="com.example.expensebom02">
+    <globalDestinations>
+      <destination type="BPM"/>
+    </globalDestinations>
+  </projectDetails>
+  <config:specialFolders>
+    <config:folder id="___qEsB5vEeav1bW2ZndGig" kind="bom" location="Business Objects"/>
+    <config:folder id="_Bxz-0B5wEeav1bW2ZndGig" kind="formsBOM" location=".forms/bom"/>
+  </config:specialFolders>
+</config:ProjectConfig>

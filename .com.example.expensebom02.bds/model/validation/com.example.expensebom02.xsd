@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns="http://example.com/expensebom02" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:tns1="http://example.com/expensebom02" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/expensebom02">
+  <xsd:annotation>
+    <xsd:documentation>BOMORIGIN::/ExpenseBOM02/Business Objects/ExpenseBOM02.bom</xsd:documentation>
+  </xsd:annotation>
+  <xsd:simpleType ecore:name="Currency" id="_N0XkIMT_EeWQyOTcUMHulw" name="Currency">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration ecore:name="USD" value="USD"/>
+      <xsd:enumeration ecore:name="GBP" value="GBP"/>
+      <xsd:enumeration ecore:name="AUD" value="AUD"/>
+      <xsd:enumeration ecore:name="EUR" value="EUR"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType ecore:name="OfficeLocations" id="_T8IMkMT_EeWQyOTcUMHulw" name="OfficeLocations">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration ecore:name="PALOALTO" value="PALOALTO"/>
+      <xsd:enumeration ecore:name="SWINDON" value="SWINDON"/>
+      <xsd:enumeration ecore:name="SYDNEY" value="SYDNEY"/>
+      <xsd:enumeration ecore:name="PARIS" value="PARIS"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType ecore:name="ExpenseCodes" id="_aL13IMT_EeWQyOTcUMHulw" name="ExpenseCodes">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration ecore:name="ENT01" value="ENT01"/>
+      <xsd:enumeration ecore:name="ACC02" value="ACC02"/>
+      <xsd:enumeration ecore:name="MEA03" value="MEA03"/>
+      <xsd:enumeration ecore:name="TAX04" value="TAX04"/>
+      <xsd:enumeration ecore:name="FLI05" value="FLI05"/>
+      <xsd:enumeration ecore:name="MIS06" value="MIS06"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType ecore:name="Manager" id="_yQhNkMT-EeWQyOTcUMHulw" name="Manager">
+    <xsd:complexContent mixed="false">
+      <xsd:extension base="tns1:Employee">
+        <xsd:sequence>
+          <xsd:element ecore:name="approvalLimit" id="_0jwbgMT-EeWQyOTcUMHulw" maxOccurs="1" minOccurs="0" name="approvalLimit" type="xsd:int"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType ecore:name="Employee" id="_zJv7oMT-EeWQyOTcUMHulw" name="Employee">
+    <xsd:sequence>
+      <xsd:element ecore:name="employeeId" id="_4JU0AMT-EeWQyOTcUMHulw" maxOccurs="1" minOccurs="1" name="employeeId">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="50"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element ecore:name="firstName" id="_4mU5EMT-EeWQyOTcUMHulw" maxOccurs="1" minOccurs="1" name="firstName">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="50"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element ecore:name="lastName" id="_47X8AMT-EeWQyOTcUMHulw" maxOccurs="1" minOccurs="1" name="lastName">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="50"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType ecore:name="ExpenseReport" id="_z6RZoMT-EeWQyOTcUMHulw" name="ExpenseReport">
+    <xsd:sequence>
+      <xsd:element ecore:name="reportDate" id="_98RDAMT-EeWQyOTcUMHulw" maxOccurs="1" minOccurs="0" name="reportDate" type="xsd:date"/>
+      <xsd:element ecore:name="currency" id="_-kVIkMT-EeWQyOTcUMHulw" maxOccurs="1" minOccurs="0" name="currency" type="tns1:Currency"/>
+      <xsd:element ecore:name="expenseitems" id="_ssKXsMT_EeWQyOTcUMHulw" maxOccurs="unbounded" minOccurs="1" name="expenseitems" type="ExpenseItems"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType ecore:name="ExpenseItems" id="_AriFoMT_EeWQyOTcUMHulw" name="ExpenseItems">
+    <xsd:sequence>
+      <xsd:element ecore:name="date" id="_B0n0oMT_EeWQyOTcUMHulw" maxOccurs="1" minOccurs="0" name="date" type="xsd:date"/>
+      <xsd:element ecore:name="expenseCode" id="_CQn0IMT_EeWQyOTcUMHulw" maxOccurs="1" minOccurs="0" name="expenseCode" type="tns1:ExpenseCodes"/>
+      <xsd:element ecore:name="amount" id="_C1ZVIMT_EeWQyOTcUMHulw" maxOccurs="1" minOccurs="0" name="amount" type="tns1:double_StudioGeneratedTemplate"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType ecore:name="Department" id="_FD1ioMT_EeWQyOTcUMHulw" name="Department">
+    <xsd:sequence>
+      <xsd:element ecore:name="deptCode" id="_GDxVoMT_EeWQyOTcUMHulw" maxOccurs="1" minOccurs="1" name="deptCode">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="50"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element ecore:name="deptName" id="_GymxkMT_EeWQyOTcUMHulw" maxOccurs="1" minOccurs="1" name="deptName">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="50"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element ecore:name="managerId" id="_HiSiEMT_EeWQyOTcUMHulw" maxOccurs="1" minOccurs="1" name="managerId">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="50"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element ecore:name="location" id="_H5BnEMT_EeWQyOTcUMHulw" maxOccurs="1" minOccurs="1" name="location" type="tns1:OfficeLocations"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="double_StudioGeneratedTemplate">
+    <xsd:restriction base="xsd:double">
+      <xsd:minInclusive value="-179.76931348623157E+306"/>
+      <xsd:maxInclusive value="179.76931348623157E+306"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element name="CurrencyElement">
+    <xsd:simpleType>
+      <xsd:restriction base="tns1:Currency"/>
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element name="OfficeLocationsElement">
+    <xsd:simpleType>
+      <xsd:restriction base="tns1:OfficeLocations"/>
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element name="ExpenseCodesElement">
+    <xsd:simpleType>
+      <xsd:restriction base="tns1:ExpenseCodes"/>
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element name="ManagerElement" type="Manager"/>
+  <xsd:element name="EmployeeElement" type="Employee"/>
+  <xsd:element name="ExpenseReportElement" type="ExpenseReport"/>
+  <xsd:element name="ExpenseItemsElement" type="ExpenseItems"/>
+  <xsd:element name="DepartmentElement" type="Department"/>
+    <xsd:element name="Department" type="Department"/>
+    <xsd:element name="Employee" type="Employee"/>
+    <xsd:element name="ExpenseItems" type="ExpenseItems"/>
+    <xsd:element name="ExpenseReport" type="ExpenseReport"/>
+    <xsd:element name="Manager" type="Manager"/>
+</xsd:schema>

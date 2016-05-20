@@ -1,0 +1,14 @@
+REUSE_OPEN_EDITORS_BOOLEAN=true
+UIActivities.com.tibco.amf.activities.compositeDevelopment=false
+UIActivities.com.tibco.amf.activities.debugComposites=false
+UIActivities.com.tibco.amf.activities.soaJavaDevelopment=false
+UIActivities.com.tibco.amf.bindingtype.jms.activities.JMSRT=false
+UIActivities.com.tibco.xpd.bom.solutiondesign=true
+UIActivities.com.tibco.xpd.capabilities.developer=true
+UIActivities.com.tibco.xpd.om.solutiondesign=true
+UIActivities.com.tibco.xpd.simplified.ui.activity.emf=true
+UIActivities.org.eclipse.antDevelopment=false
+UIActivities.org.eclipse.birt.activity=false
+UIActivities.org.eclipse.debugSupport=false
+UIActivities.org.eclipse.team.cvs=false
+eclipse.preferences.version=1

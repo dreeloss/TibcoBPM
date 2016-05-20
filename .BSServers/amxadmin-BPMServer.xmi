@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ad:AdminServer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ad="http://www.tibco.com/models/admindata" lastRefreshed="1463752999019" url="http://10.105.65.201:8120" username="root" password="0$7#oN.9j3{vi/]@&amp;- [k3+kN&lt;/m>,M4(9nc+`D/!&quot;z2)Z^.8'sg\&lt;5@4>*qpC-." serverName="BPMServer" filterUserApps="true" defaultEnvironmentName="BPMEnvironment" defaultTargetAppName="amx.bpm.app" filterEnvironments="true" version="3.3.0" displayUrl="http://10.105.65.201:8120">
+  <environments lastRefreshed="1463752995813" id="3" name="BPMEnvironment" description="TIBCO BPM Environment" nodes="//@hosts.0/@nodes.0">
+    <apps lastRefreshed="1463752995811" id="7" name="com.tibco.amx.platform" description="Default platform application" lastModified="2016-05-03T08:49:21.142Z" contact="" runtimeState="Running" templateName="com.tibco.amx.platform.daa" templateVersion="3.3.0.000" synchronizaition="In Sync" folder="//@environments.0/@folders.2" containingFolderId="10">
+      <components lastRefreshed="1463752796639" id="285" name="SecurityConstraintActionComponent" description="" version="1.0.0" componentPath="WebSecurityPolicyActions/SecurityConstraintActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796639" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796640" id="286" name="AuthenticationActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/AuthenticationActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796640" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796640" id="287" name="messaging.bus" description="" version="1.0.0" componentPath="messaging.bus" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796640" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796640" id="288" name="WssProcessorActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/WssProcessorActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796640" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796640" id="289" name="VerifyDecryptionActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/VerifyDecryptionActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796640" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796640" id="290" name="VerifyAuthenticationActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/VerifyAuthenticationActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796640" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796641" id="291" name="CredentialMappingComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/CredentialMappingComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796641" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796641" id="292" name="SplineInterceptorComponent" description="" version="1.3.0" componentPath="GovernanceAgent/pepSpline/SplineInterceptorComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796641" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796641" id="293" name="HttpFilterComponent" description="" version="1.3.0" componentPath="GovernanceAgent/pepHttp/HttpFilterComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796641" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796641" id="294" name="PolicyDecisionPointComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyAgent/PolicyDecisionPointComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796641" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796641" id="295" name="AMXGovMsgInterceptorComponent" description="This is implementation of Service Proxy Message Interceptor Extension Point and Spline (IPhase) and InstrumentExtension" version="1.3.0" componentPath="GovernanceAgent/AMXGovMessageInterceptor/AMXGovMsgInterceptorComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796641" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796642" id="296" name="FormBasedAuthenticationActionComponent" description="" version="1.0.0" componentPath="WebSecurityPolicyActions/FormBasedAuthenticationActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796642" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796642" id="297" name="implementation.java-spring" description="" version="1.1.0" componentPath="implementation.java-spring" implementation="implementation.bootstrap">
+        <mappings lastRefreshed="1463752796642" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796642" id="298" name="AuthenticationByJaasComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/AuthenticationByJaasComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796642" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796642" id="299" name="AMXCustomMetricsCollectorComponent" description="CustomMetricsCollector Component implemented as PolicyAction Component" version="2.1.0" componentPath="GovernanceAgent/AMXServiceProbe/AMXCustomMetricsCollectorComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796642" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796642" id="300" name="PolicyAgentComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyAgent/PolicyAgentComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796642" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796643" id="301" name="SvcProxyPepComponent" description="" version="1.3.0" componentPath="GovernanceAgent/pepSvcProxy/SvcProxyPepComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796643" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796643" id="302" name="LoggingActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/LoggingActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796643" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796643" id="303" name="binding.soap" description="" version="1.1.0" componentPath="binding.soap" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752796643" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796643" id="304" name="messaging.bus.abstract.to.ems.converter" description="" version="1.0.0" componentPath="messaging.bus.abstract.to.ems.converter" implementation="implementation.bootstrap">
+        <mappings lastRefreshed="1463752796643" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796643" id="305" name="SsoSipComponent" description="" version="1.3.0" componentPath="GovernanceAgent/SSOSIP/SsoSipComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796643" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796644" id="306" name="TimeStampActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/TimeStampActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796643" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796644" id="307" name="messaging.bus.ems.to.abstract.converter" description="" version="1.0.0" componentPath="messaging.bus.ems.to.abstract.converter" implementation="implementation.bootstrap">
+        <mappings lastRefreshed="1463752796644" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796644" id="308" name="binding.mbean" description="" version="1.0.0" componentPath="binding.mbean" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752796644" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796644" id="309" name="SsoTipComponent" description="" version="1.3.0" componentPath="GovernanceAgent/SSOTIP/SsoTipComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796644" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796644" id="310" name="AMXServiceMetricsCollectorComponent" description="ServiceMetricsCollector Component" version="2.1.0" componentPath="GovernanceAgent/AMXServiceProbe/AMXServiceMetricsCollectorComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796644" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796644" id="311" name="SharedResourceManagerComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/SharedResourceManagerComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796644" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796645" id="312" name="AuthenticationBySamlComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/AuthenticationBySamlComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796645" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796645" id="313" name="PolicyRuntimeStoreComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyAgent/PolicyRuntimeStoreComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796645" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796645" id="314" name="implementation.webapp" description="" version="1.1.0" componentPath="implementation.webapp" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752796645" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796645" id="315" name="binding.management" description="" version="1.0.0" componentPath="binding.management" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752796645" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796645" id="316" name="AuthorizationActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/AuthorizationActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796645" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796646" id="317" name="amx.monitoring.service" description="" version="1.3.0" componentPath="LocalMonitoringComponent/amx.monitoring.service" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796646" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796646" id="318" name="ComponentFrameworkActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyAgent/ComponentFrameworkActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796646" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796646" id="319" name="VerifyTimestampActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/VerifyTimestampActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796646" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796646" id="320" name="EncryptionActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/EncryptionActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796646" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796646" id="321" name="binding.tcp" description="" version="1.2.0" componentPath="binding.tcp" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752796646" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796647" id="322" name="GovernanceAgentComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyAgent/GovernanceAgentComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796647" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796647" id="323" name="VerifySignatureActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/VerifySignatureActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796647" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796647" id="324" name="ComponentFrameworkServices" description="" version="1.0.0" componentPath="ComponentFrameworkServices" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796647" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796647" id="325" name="SignatureActionComponent" description="" version="1.3.0" componentPath="GovernanceAgent/PolicyActions/SignatureActionComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796647" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796647" id="326" name="AMXServiceProbeComponent" description="AMX ServiceProbe Implementation" version="3.3.0" componentPath="GovernanceAgent/AMXServiceProbe/AMXServiceProbeComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796647" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796648" id="327" name="binding.jms" description="" version="1.1.0" componentPath="binding.jms" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752796647" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752796648" id="328" name="HttpClientFilterComponent" description="" version="1.3.0" componentPath="GovernanceAgent/pepHttpClient/HttpClientFilterComponent" implementation="implementation.java">
+        <mappings lastRefreshed="1463752796648" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <services lastRefreshed="1463752796687" id="33" name="GovernanceAgentPT" portType="{http://wsdl.tns.tibco.com/governance/agent/2011}GovernanceAgentPT">
+        <bindings lastRefreshed="1463752796687" id="37" name="management_binding" httpConnectorName="" bindingType="binding.management.service" bindingTypeName="binding.management.service">
+          <nodeMappings lastRefreshed="1463752796687" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752796687" id="38" name="virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752796687" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752796688" id="34" name="ComponentFrameworkServices" portType="{http://www.tibco.com/amf/platform/runtime/management/services/}ComponentFrameworkServices">
+        <bindings lastRefreshed="1463752796688" id="39" name="management_binding" httpConnectorName="" bindingType="binding.management.service" bindingTypeName="binding.management.service">
+          <nodeMappings lastRefreshed="1463752796688" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752796688" id="40" name="virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752796688" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <references lastRefreshed="1463752796728" id="33" name="GovernanceAgentListenerPT" portType="{http://wsdl.tns.tibco.com/governance/agent/listener/2011}GovernanceAgentListenerPT">
+        <bindings lastRefreshed="1463752796728" id="41" name="MANAGEMENTReference_Binding1" bindingType="binding.management.reference" bindingTypeName="binding.management.reference">
+          <nodeMappings lastRefreshed="1463752796728" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </references>
+      <references lastRefreshed="1463752796728" id="34" name="ComponentFrameworkStatusNotificationService1" portType="{http://www.tibco.com/amf/platform/runtime/management/services/}ComponentFrameworkStatusNotificationService">
+        <bindings lastRefreshed="1463752796728" id="42" name="MANAGEMENTReference_Binding1" bindingType="binding.management.reference" bindingTypeName="binding.management.reference">
+          <nodeMappings lastRefreshed="1463752796728" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </references>
+    </apps>
+    <apps lastRefreshed="1463752995811" id="8" name="amx.bpm.apacheds" description="apacheds LDAP system and demo data provider" lastModified="2016-05-03T08:52:58.883Z" contact="TIBCO Inc." runtimeState="Running" templateName="com.tibco.amxbpm.apacheds" templateVersion="1.5.0.001" synchronizaition="In Sync" folder="//@environments.0/@folders.3" containingFolderId="9">
+      <components lastRefreshed="1463752797039" id="331" name="implementation.apacheds" description="" version="1.4.1.001" componentPath="implementation.apacheds" implementation="implementation.java">
+        <mappings lastRefreshed="1463752797039" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+    </apps>
+    <apps lastRefreshed="1463752995811" id="9" name="amx.bpm.app" description="AMX BPM System Application" lastModified="2016-05-03T08:58:57.568Z" contact="TIBCO Inc." runtimeState="Running" templateName="com.tibco.amxbpm.fullnode" templateVersion="1.9.0.048" synchronizaition="In Sync" folder="//@environments.0/@folders.5" containingFolderId="12">
+      <components lastRefreshed="1463752801089" id="380" name="implementation.sc" description="Statistics Collector Component" version="1.8.0.201511041518" componentPath="WorkManager/implementation.sc" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801089" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801090" id="381" name="DatabaseBpelExtension" description="" version="1.5.200.201511041518" componentPath="ProcessManager/DatabaseBpelExtension" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801090" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801090" id="382" name="implementation.wp.gwt" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.presentation/implementation.wp.gwt" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801090" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801091" id="383" name="implementation.ws" description="" version="1.3.0.201511041518" componentPath="Workspace/implementation.ws" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801091" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801091" id="384" name="extension.usertask" description="" version="1.8.0.201511041518" componentPath="WorkManager/extension.usertask" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801091" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801092" id="385" name="implementation.wp" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.presentation/implementation.wp" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801091" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801092" id="386" name="implementation.wpextender" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.presentation/implementation.wpextender" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801092" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801092" id="387" name="JavaBpelExtension" description="" version="1.5.200.201511041518" componentPath="ProcessManager/JavaBpelExtension" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801092" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801093" id="388" name="implementation.wp.email" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.presentation/implementation.wp.email" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801093" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801093" id="389" name="extension.javatask" description="" version="1.3.0.201511041518" componentPath="WorkManager/implementation.presentation/extension.javatask" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801093" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801094" id="390" name="implementation.wp.mobile" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.presentation/implementation.wp.mobile" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801093" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801094" id="391" name="implementation.de.saml" description="" version="1.6.0.201511041518" componentPath="WorkManager/implementation.de.saml" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801094" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801094" id="392" name="gadgetserver" description="" version="1.3.0.201511041518" componentPath="Openspace/gadgetserver" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801094" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801095" id="393" name="implementation.CORS" description="" version="1.1.0.201511041518" componentPath="RestServices/implementation.CORS" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801095" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801095" id="394" name="implementation-bx" description="" version="1.10.0.201511041518" componentPath="ProcessManager/implementation-bx" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801095" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801096" id="395" name="implementation.brm" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.brm" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801095" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801096" id="396" name="implementation.openspace" description="" version="1.8.0.201511041518" componentPath="Openspace/implementation.openspace" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801096" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801096" id="397" name="implementation.ec" description="Event Collector Component" version="1.9.0.201511041518" componentPath="EventCollector/implementation.ec" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801096" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801097" id="398" name="implementation.dac" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.dac" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801097" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801097" id="399" name="accessibility" description="" version="1.2.0.201511041518" componentPath="Openspace/accessibility" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801097" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801098" id="400" name="openspace.login" description="" version="1.7.0.201511041518" componentPath="Openspace/openspace.login" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801098" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801098" id="401" name="implementation.pageflowengine" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.presentation/implementation.pageflowengine" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801098" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801099" id="402" name="extension.emailtask" description="" version="1.3.0.201511041518" componentPath="WorkManager/implementation.presentation/extension.emailtask" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801098" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801099" id="403" name="help" description="" version="1.5.0.201511041518" componentPath="Openspace/help" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801099" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801099" id="404" name="extension.databasetask" description="" version="1.3.0.201511041518" componentPath="WorkManager/implementation.presentation/extension.databasetask" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801099" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801100" id="405" name="implementation.wp.jsp" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.presentation/implementation.wp.jsp" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801100" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801100" id="406" name="bpmcli" description="" version="1.1.0.201511041518" componentPath="Openspace/bpmcli" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801100" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801101" id="407" name="extension.documentactivity" description="" version="1.0.0.201511041518" componentPath="WorkManager/extension.documentactivity" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801101" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801101" id="408" name="implementation.de.wss" description="" version="1.6.0.201511041518" componentPath="WorkManager/implementation.de.wss" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801101" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801101" id="409" name="implementation.de.jaas" description="" version="1.6.0.201511041518" componentPath="WorkManager/implementation.de.jaas" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801101" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801102" id="410" name="apps" description="" version="1.0.0.201511041518" componentPath="appdev/apps" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801102" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801102" id="411" name="implementation.rest" description="" version="1.3.1.201511041518" componentPath="RestServices/implementation.rest" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801102" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801103" id="412" name="implementation.wp.gi" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.presentation/implementation.wp.gi" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801103" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801103" id="413" name="EmailBpelExtension" description="" version="1.5.200.201511041518" componentPath="ProcessManager/EmailBpelExtension" implementation="implementation.java">
+        <mappings lastRefreshed="1463752801103" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801104" id="414" name="implementation.de" description="" version="1.8.0.201511041518" componentPath="WorkManager/implementation.de" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801103" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801104" id="415" name="implementation.ap" description="" version="1.7.0.201511041518" componentPath="Workspace/implementation.ap" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801104" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801104" id="416" name="implementation.bds" description="Business Data Services Component" version="2.2.0.201511041518" componentPath="BusinessDataServices/implementation.bds" implementation="implementation.spring">
+        <mappings lastRefreshed="1463752801104" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752801108" id="417" name="bpmresources" description="" version="1.3.0.201511041518" componentPath="Openspace/bpmresources" implementation="implementation.web">
+        <mappings lastRefreshed="1463752801108" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <services lastRefreshed="1463752801178" id="209" name="EventCollectorQueryService_1.8.0" portType="{http://services.ec.n2.tibco.com}EventCollectorQueryService">
+        <bindings lastRefreshed="1463752801177" id="488" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801177" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801178" id="489" name="EventCollectorQueryService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801178" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801178" id="210" name="EventCollectorUpdateService_1.8.0" portType="{http://services.ec.n2.tibco.com}EventCollectorUpdateService">
+        <bindings lastRefreshed="1463752801178" id="490" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801178" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801178" id="491" name="EventCollectorUpdateService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801178" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801179" id="211" name="WorkModelBrowserService_1.7.0" portType="{http://services.brm.n2.tibco.com}WorkModelBrowserService">
+        <bindings lastRefreshed="1463752801179" id="492" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801179" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801179" id="493" name="WorkModelBrowserService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801179" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801180" id="212" name="WorkItemSchedulerService_1.7.0" portType="{http://services.brm.n2.tibco.com}WorkItemSchedulerService">
+        <bindings lastRefreshed="1463752801180" id="494" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801179" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801180" id="495" name="WorkItemSchedulerService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801180" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801181" id="213" name="WorkGroupManagementService_1.7.0" portType="{http://services.brm.n2.tibco.com}WorkGroupManagementService">
+        <bindings lastRefreshed="1463752801180" id="496" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801180" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801181" id="497" name="WorkGroupManagementService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801181" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801181" id="214" name="WorkItemManagementService_1.7.0" portType="{http://services.brm.n2.tibco.com}WorkItemManagementService">
+        <bindings lastRefreshed="1463752801181" id="498" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801181" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801181" id="499" name="WorkItemManagementService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801181" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801182" id="215" name="WorkListService_1.7.0" portType="{http://services.brm.n2.tibco.com}WorkListService">
+        <bindings lastRefreshed="1463752801182" id="500" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801182" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801182" id="501" name="WorkListService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801182" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801183" id="216" name="OrganisationalEntityConfigService_1.7.0" portType="{http://services.brm.n2.tibco.com}OrganisationalEntityConfigService">
+        <bindings lastRefreshed="1463752801183" id="502" name="OrganisationalEntityConfigService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801182" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801183" id="503" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801183" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801184" id="217" name="ResourceQueryService_1.8.0" portType="{http://services.de.n2.tibco.com}ResourceQueryService">
+        <bindings lastRefreshed="1463752801183" id="504" name="ResourceQueryService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801183" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801184" id="505" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801183" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801184" id="218" name="ExporterService_1.8.0" portType="{http://services.de.n2.tibco.com}ExporterService">
+        <bindings lastRefreshed="1463752801184" id="506" name="ExporterService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801184" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801184" id="507" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801184" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801185" id="219" name="SecurityService_1.8.0" portType="{http://services.de.n2.tibco.com}SecurityService">
+        <bindings lastRefreshed="1463752801185" id="508" name="SecurityService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801185" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801185" id="509" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801185" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801186" id="220" name="UserSettingsService_1.8.0" portType="{http://services.de.n2.tibco.com}UserSettingsService">
+        <bindings lastRefreshed="1463752801185" id="510" name="UserSettingsService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801185" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801186" id="511" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801186" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801187" id="221" name="WorkPresentationService_1.7.0" portType="{http://services.wp.n2.tibco.com}WorkPresentationService">
+        <bindings lastRefreshed="1463752801186" id="512" name="WorkPresentationService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801186" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801187" id="513" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801187" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801188" id="222" name="ChannelBusService_1.7.0" portType="{http://services.wp.n2.tibco.com}ChannelBusService">
+        <bindings lastRefreshed="1463752801187" id="514" name="ChannelBusService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801187" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801188" id="515" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801187" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801188" id="223" name="BxProcessManagementService_1.10.0" portType="{http://www.tibco.com/bx/2009/management/process}processManagement">
+        <bindings lastRefreshed="1463752801188" id="516" name="N2PEProcessManagementService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801188" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801188" id="517" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801188" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801189" id="224" name="BxProcessDebuggerService_1.8.0" portType="{http://www.tibco.com/bx/2010/debugging/debugger}Debugger">
+        <bindings lastRefreshed="1463752801189" id="518" name="N2PEDebuggerService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801189" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801189" id="519" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801189" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801190" id="225" name="CalendarService_1.7.0" portType="{http://services.dac.n2.tibco.com}CalendarService">
+        <bindings lastRefreshed="1463752801190" id="520" name="CalendarService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801190" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801190" id="521" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801190" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801191" id="226" name="BusinessDeadlineService_1.7.0" portType="{http://services.dac.n2.tibco.com}BusinessDeadlineService">
+        <bindings lastRefreshed="1463752801191" id="522" name="BusinessDeadlineService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801191" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801191" id="523" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801191" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801192" id="227" name="EventCollectorMeasuresService_1.8.0" portType="{http://services.ec.n2.tibco.com}EventCollectorMeasuresService">
+        <bindings lastRefreshed="1463752801192" id="524" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801191" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801192" id="525" name="EventCollectorMeasuresService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801192" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801193" id="228" name="EventCollectorAuditService_1.8.0" portType="{http://services.ec.n2.tibco.com}EventCollectorAuditService">
+        <bindings lastRefreshed="1463752801192" id="526" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801192" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801193" id="527" name="EventCollectorAuditService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801193" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801194" id="229" name="PageFlowService_1.7.0" portType="{http://services.pfe.n2.tibco.com}PageFlowService">
+        <bindings lastRefreshed="1463752801193" id="528" name="PageFlowService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801193" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801194" id="529" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801193" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801194" id="230" name="BusinessService_1.8.0" portType="{http://services.busserv.n2.tibco.com}BusinessService">
+        <bindings lastRefreshed="1463752801194" id="530" name="BusinessService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801194" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801194" id="531" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801194" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801195" id="231" name="WorkCalService_1.7.0" portType="{http://services.dac.n2.tibco.com}WorkCalService">
+        <bindings lastRefreshed="1463752801195" id="532" name="WorkCalService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801195" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801195" id="533" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801195" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801196" id="232" name="AdminService_1.8.0" portType="{http://services.de.n2.tibco.com}AdminService">
+        <bindings lastRefreshed="1463752801196" id="534" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801196" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801196" id="535" name="AdminService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801196" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801197" id="233" name="OrgResourceService_1.8.0" portType="{http://services.de.n2.tibco.com}OrgResourceService">
+        <bindings lastRefreshed="1463752801197" id="536" name="OrgResourceService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801196" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801197" id="537" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801197" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801198" id="234" name="OrgModelService_1.8.0" portType="{http://services.de.n2.tibco.com}OrgModelService">
+        <bindings lastRefreshed="1463752801197" id="538" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801197" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801198" id="539" name="OrgModelService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801198" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801199" id="235" name="PageflowDebuggerService_1.7.0" portType="{http://www.tibco.com/bx/2010/debugging/debugger}Debugger">
+        <bindings lastRefreshed="1463752801198" id="540" name="PageflowDebugger.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801198" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801199" id="541" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801198" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801199" id="236" name="DirectoryService_1.8.0" portType="{http://services.de.n2.tibco.com}DirectoryService">
+        <bindings lastRefreshed="1463752801199" id="542" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801199" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801199" id="543" name="DirectoryService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801199" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801200" id="237" name="BxProcessTesterService_1.8.0" portType="{http://www.tibco.com/bx/2010/debugging/debugger}Tester">
+        <bindings lastRefreshed="1463752801200" id="544" name="N2PETesterService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801200" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801200" id="545" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801200" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801201" id="238" name="EventCollectorManagementService_1.8.0" portType="{http://services.ec.n2.tibco.com}EventCollectorManagementService">
+        <bindings lastRefreshed="1463752801201" id="546" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801201" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801201" id="547" name="EventCollectorManagementService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801201" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801202" id="239" name="BusinessDataServices_1.2.0" portType="{http://services.bds.tibco.com}BusinessDataServices">
+        <bindings lastRefreshed="1463752801202" id="548" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801202" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801202" id="549" name="BusinessDataServices.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801202" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801203" id="240" name="BusinessDataServicesAdminService_1.2.0" portType="{http://services.bds.tibco.com}BusinessDataServicesAdminService">
+        <bindings lastRefreshed="1463752801203" id="550" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801202" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801203" id="551" name="BusinessDataServicesAdminService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801203" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801204" id="241" name="EventCollectorReportService_1.8.0" portType="{http://services.ec.n2.tibco.com}EventCollectorReportService">
+        <bindings lastRefreshed="1463752801203" id="552" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801203" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801204" id="553" name="EventCollectorReportService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801204" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801205" id="242" name="DocumentService_1.1.0" portType="{http://services.bds.tibco.com}DocumentService">
+        <bindings lastRefreshed="1463752801204" id="554" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801204" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801205" id="555" name="DocumentService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801205" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801206" id="243" name="EntityResolverService_1.8.0" portType="{http://services.de.n2.tibco.com}EntityResolverService">
+        <bindings lastRefreshed="1463752801205" id="556" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801205" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801206" id="557" name="EntityResolverService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801205" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+      <services lastRefreshed="1463752801206" id="244" name="GlobalDataChangeSubscriptionService_1.0.0" portType="{http://services.bds.tibco.com}GlobalDataChangeSubscriptionService">
+        <bindings lastRefreshed="1463752801206" id="558" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752801206" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752801206" id="559" name="GlobalDataChangeSubscriptionService.soap" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752801206" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+    </apps>
+    <apps lastRefreshed="1463752995812" id="10" name="amx.bpm.app.sysorgmodel" description="AMX BPM System Organizational Model Application" lastModified="2016-05-03T09:32:57.024Z" contact="TIBCO Inc." runtimeState="Running" templateName="com.tibco.amxbpm.orgmodel.application" templateVersion="1.1.0.001" synchronizaition="In Sync" folder="//@environments.0/@folders.5" containingFolderId="12">
+      <components lastRefreshed="1463752801541" id="420" name="SysUsers.de" description="" version="0.1" componentPath="SysUsers.de" implementation="implementation.de">
+        <mappings lastRefreshed="1463752801541" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+    </apps>
+    <apps lastRefreshed="1463752995812" id="11" name="com.example.healthom" description="" lastModified="2016-05-03T09:40:41.388Z" contact="" runtimeState="Running" templateName="com.example.healthom" templateVersion="1.0.0.20160503114017402" synchronizaition="In Sync" folder="//@environments.0/@folders.0" containingFolderId="7">
+      <components lastRefreshed="1463752801846" id="424" name="OrganizationModel" description="" version="1.0.0.20160503114017402" componentPath="OrganizationModel" implementation="implementation.de">
+        <mappings lastRefreshed="1463752801846" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+    </apps>
+    <apps lastRefreshed="1463752995812" id="12" name="com.example.healthclaim" description="" lastModified="2016-05-03T09:44:48.767Z" contact="" runtimeState="Running" templateName="com.example.healthclaim" templateVersion="1.0.0.20160503114347079" synchronizaition="In Sync" folder="//@environments.0/@folders.0" containingFolderId="7">
+      <components lastRefreshed="1463752802154" id="430" name="HealthClaimPageFlow" description="" version="1.0.0.20160503114347079" componentPath="HealthClaimPageFlow" implementation="PFESpecification">
+        <mappings lastRefreshed="1463752802154" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752802154" id="431" name="HealthClaimProcessFlow" description="" version="1.0.0.20160503114347079" componentPath="HealthClaimProcessFlow" implementation="N2PEServiceImplementation">
+        <mappings lastRefreshed="1463752802154" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752802154" id="432" name="BRM" description="" version="1.0.0.20160503114347079" componentPath="BRM" implementation="implementation.brm">
+        <mappings lastRefreshed="1463752802154" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752802154" id="433" name="WorkPresentation" description="" version="1.0.0.20160503114347079" componentPath="WorkPresentation" implementation="implementation.wp">
+        <mappings lastRefreshed="1463752802154" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <services lastRefreshed="1463752802157" id="248" name="HealthClaim" portType="{http://www.tibco.com/bs3.0/_PPhmkKg2EeSX3MTEPQJtMA}HealthClaim">
+        <bindings lastRefreshed="1463752802157" id="566" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752802157" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752802157" id="567" name="HealthClaim_EP" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752802157" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+    </apps>
+    <apps lastRefreshed="1463752995812" id="13" name="com.example.healthglobaldata-3" description="" lastModified="2016-05-03T09:47:13.672Z" contact="" runtimeState="Running" templateName="com.example.healthglobaldata-3" templateVersion="3.0.0.20160503101322272" synchronizaition="In Sync" folder="//@environments.0/@folders.0" containingFolderId="7">
+      <components lastRefreshed="1463752802463" id="436" name="BDS" description="" version="3.0.0.20160503101322272" componentPath="BDS" implementation="implementation.bds">
+        <mappings lastRefreshed="1463752802463" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+    </apps>
+    <apps lastRefreshed="1463752995812" id="14" name="com.example.patientcare" description="" lastModified="2016-05-03T09:52:41.740Z" contact="" runtimeState="Running" templateName="com.example.patientcare" templateVersion="1.0.0.20160503114809295" synchronizaition="In Sync" folder="//@environments.0/@folders.0" containingFolderId="7">
+      <components lastRefreshed="1463752802771" id="442" name="PatientCareProcessFlow" description="" version="1.0.0.20160503114809295" componentPath="PatientCareProcessFlow" implementation="N2PEServiceImplementation">
+        <mappings lastRefreshed="1463752802771" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752802771" id="443" name="BRM" description="" version="1.0.0.20160503114809295" componentPath="BRM" implementation="implementation.brm">
+        <mappings lastRefreshed="1463752802771" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752802772" id="444" name="PatientCarePageFlow" description="" version="1.0.0.20160503114809295" componentPath="PatientCarePageFlow" implementation="PFESpecification">
+        <mappings lastRefreshed="1463752802771" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752802772" id="445" name="WorkPresentation" description="" version="1.0.0.20160503114809295" componentPath="WorkPresentation" implementation="implementation.wp">
+        <mappings lastRefreshed="1463752802772" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <services lastRefreshed="1463752802773" id="252" name="ERProcess" portType="{http://www.tibco.com/bs3.0/_rp25QKdyEeSX3MTEPQJtMA}ERProcess">
+        <bindings lastRefreshed="1463752802773" id="574" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752802773" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752802773" id="575" name="ERProcess_EP" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752802773" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+    </apps>
+    <apps lastRefreshed="1463752995813" id="15" name="com.example.complexpatterns" description="" lastModified="2016-05-03T10:12:31.646Z" contact="" runtimeState="Running" templateName="com.example.complexpatterns" templateVersion="1.0.0.20160503121157355" synchronizaition="In Sync" folder="//@environments.0/@folders.0" containingFolderId="7">
+      <components lastRefreshed="1463752803079" id="450" name="WorkPresentation" description="" version="1.0.0.20160503121157355" componentPath="WorkPresentation" implementation="implementation.wp">
+        <mappings lastRefreshed="1463752803079" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752803079" id="451" name="BRM" description="" version="1.0.0.20160503121157355" componentPath="BRM" implementation="implementation.brm">
+        <mappings lastRefreshed="1463752803079" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752803079" id="452" name="ComplexPatternsProcessFlow" description="" version="1.0.0.20160503121157355" componentPath="ComplexPatternsProcessFlow" implementation="N2PEServiceImplementation">
+        <mappings lastRefreshed="1463752803079" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+    </apps>
+    <apps lastRefreshed="1463752995813" id="16" name="com.example.xyzorgmodel02" description="" lastModified="2016-05-03T17:06:49.023Z" contact="" runtimeState="Running" templateName="com.example.xyzorgmodel02" templateVersion="1.0.0.20160503190625910" synchronizaition="In Sync" folder="//@environments.0/@folders.0" containingFolderId="7">
+      <components lastRefreshed="1463752803385" id="518" name="OrganizationModel" description="" version="1.0.0.20160503190625910" componentPath="OrganizationModel" implementation="implementation.de">
+        <mappings lastRefreshed="1463752803385" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+    </apps>
+    <apps lastRefreshed="1463752995813" id="17" name="com.example.expensebom02-1" description="" lastModified="2016-05-20T14:03:03.990Z" contact="" runtimeState="Running" templateName="com.example.expensebom02-1" templateVersion="1.0.0.20160408072522376" synchronizaition="In Sync" distributionPolicy="PRODUCT_APP" folder="//@environments.0/@folders.0" containingFolderId="7">
+      <components lastRefreshed="1463752998023" id="458" name="BDS" description="" version="1.0.0.20160503151347297" componentPath="BDS" implementation="implementation.bds">
+        <mappings lastRefreshed="1463752998023" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752998023" id="501" name="BDS" description="" version="1.0.0.20160503165236861" componentPath="BDS" implementation="implementation.bds">
+        <mappings lastRefreshed="1463752998023" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752998023" id="519" name="BDS" description="" version="1.0.0.20160408072522376" componentPath="BDS" implementation="implementation.bds">
+        <mappings lastRefreshed="1463752998023" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+    </apps>
+    <apps lastRefreshed="1463752995813" id="18" name="com.example.expenseclaim02" description="" lastModified="2016-05-03T17:05:01.108Z" contact="" runtimeState="Running" templateName="com.example.expenseclaim02" templateVersion="1.0.0.20160503190410218" synchronizaition="In Sync" folder="//@environments.0/@folders.0" containingFolderId="7">
+      <components lastRefreshed="1463752804001" id="463" name="WorkPresentation" description="" version="1.0.0.20160503151716999" componentPath="WorkPresentation" implementation="implementation.wp">
+        <mappings lastRefreshed="1463752804001" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804001" id="464" name="ExpenseClaim02ProcessFlow" description="" version="1.0.0.20160503151716999" componentPath="ExpenseClaim02ProcessFlow" implementation="N2PEServiceImplementation">
+        <mappings lastRefreshed="1463752804001" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804001" id="465" name="BRM" description="" version="1.0.0.20160503151716999" componentPath="BRM" implementation="implementation.brm">
+        <mappings lastRefreshed="1463752804001" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804001" id="510" name="WorkPresentation" description="" version="1.0.0.20160503181734987" componentPath="WorkPresentation" implementation="implementation.wp">
+        <mappings lastRefreshed="1463752804001" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804002" id="511" name="ExpenseClaim02PageFlow" description="" version="1.0.0.20160503181734987" componentPath="ExpenseClaim02PageFlow" implementation="PFESpecification">
+        <mappings lastRefreshed="1463752804002" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804002" id="512" name="BRM" description="" version="1.0.0.20160503181734987" componentPath="BRM" implementation="implementation.brm">
+        <mappings lastRefreshed="1463752804002" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804002" id="513" name="ExpenseClaim02ProcessFlow" description="" version="1.0.0.20160503181734987" componentPath="ExpenseClaim02ProcessFlow" implementation="N2PEServiceImplementation">
+        <mappings lastRefreshed="1463752804002" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804003" id="514" name="WorkPresentation" description="" version="1.0.0.20160503190410218" componentPath="WorkPresentation" implementation="implementation.wp">
+        <mappings lastRefreshed="1463752804002" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804003" id="515" name="ExpenseClaim02PageFlow" description="" version="1.0.0.20160503190410218" componentPath="ExpenseClaim02PageFlow" implementation="PFESpecification">
+        <mappings lastRefreshed="1463752804003" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804003" id="516" name="ExpenseClaim02ProcessFlow" description="" version="1.0.0.20160503190410218" componentPath="ExpenseClaim02ProcessFlow" implementation="N2PEServiceImplementation">
+        <mappings lastRefreshed="1463752804003" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <components lastRefreshed="1463752804003" id="517" name="BRM" description="" version="1.0.0.20160503190410218" componentPath="BRM" implementation="implementation.brm">
+        <mappings lastRefreshed="1463752804003" status="Running" node="//@hosts.0/@nodes.0"/>
+      </components>
+      <services lastRefreshed="1463752804006" id="266" name="ExpenseClaim02" portType="{http://www.tibco.com/bs3.0/_mMe9oAVtEeaRitq64r9mDw}ExpenseClaim02">
+        <bindings lastRefreshed="1463752804006" id="606" name="Virtualization" httpConnectorName="" bindingType="binding.sca" bindingTypeName="binding.sca">
+          <nodeMappings lastRefreshed="1463752804006" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+        <bindings lastRefreshed="1463752804006" id="607" name="ExpenseClaim02_EP" httpConnectorName="" bindingType="binding.soap.service" bindingTypeName="binding.soap.service">
+          <nodeMappings lastRefreshed="1463752804006" status="Running" node="//@hosts.0/@nodes.0"/>
+        </bindings>
+      </services>
+    </apps>
+    <folders lastRefreshed="1463752998337" id="7" name="BPMEnvironment(root)" description="Root folder for Environment BPMEnvironment" path="/" children="//@environments.0/@folders.1 //@environments.0/@folders.3 //@environments.0/@folders.4 //@environments.0/@apps.4 //@environments.0/@apps.5 //@environments.0/@apps.6 //@environments.0/@apps.7 //@environments.0/@apps.8 //@environments.0/@apps.9 //@environments.0/@apps.10 //@environments.0/@apps.11"/>
+    <folders lastRefreshed="1463752998337" id="8" name="System" description="This folder holds applications that are part of the TIBCO ActiveMatrix Platform." path="/System/" children="//@environments.0/@folders.2" parent="//@environments.0/@folders.0"/>
+    <folders lastRefreshed="1463752998337" id="10" name="amx.platform.apps" description="This folder holds applications that are part of the TIBCO ActiveMatrix Platform." path="/System/amx.platform.apps/" children="//@environments.0/@apps.0" parent="//@environments.0/@folders.1"/>
+    <folders lastRefreshed="1463752998337" id="9" name="amx.bpm.shared.sysapps" description="This folder is for the internal AMX-BPM embedded Apache DS based LDAP server application." path="/amx.bpm.shared.sysapps/" children="//@environments.0/@apps.1" parent="//@environments.0/@folders.0"/>
+    <folders lastRefreshed="1463752998337" id="11" name="amx.bpm.app" description="This folder is for all user applications deployed to the AMX-BPM amx.bpm.app application." path="/amx.bpm.app/" children="//@environments.0/@folders.5" parent="//@environments.0/@folders.0"/>
+    <folders lastRefreshed="1463752998337" id="12" name="System" description="This folder is for all system applications related to the AMX-BPM amx.bpm.app application." path="/amx.bpm.app/System/" children="//@environments.0/@apps.2 //@environments.0/@apps.3" parent="//@environments.0/@folders.4"/>
+  </environments>
+  <environments lastRefreshed="1463752994854" id="2" name="DevEnvironment" description="Development environment">
+    <folders lastRefreshed="1463752998641" id="4" name="DevEnvironment(root)" description="Root folder for Environment DevEnvironment" path="/" children="//@environments.1/@folders.1"/>
+    <folders lastRefreshed="1463752998641" id="5" name="System" description="This folder holds applications that are part of the TIBCO ActiveMatrix Platform." path="/System/" children="//@environments.1/@folders.2" parent="//@environments.1/@folders.0"/>
+    <folders lastRefreshed="1463752998641" id="6" name="amx.platform.apps" description="This folder holds applications that are part of the TIBCO ActiveMatrix Platform." path="/System/amx.platform.apps/" parent="//@environments.1/@folders.1"/>
+  </environments>
+  <environments lastRefreshed="1463752994854" id="1" name="SystemEnvironment" description="environment for administrator">
+    <folders lastRefreshed="1463752998944" id="1" name="SystemEnvironment(root)" description="Root folder for Environment SystemEnvironment" path="/" children="//@environments.2/@folders.1"/>
+    <folders lastRefreshed="1463752998944" id="2" name="System" description="This folder holds applications that are part of the TIBCO ActiveMatrix Platform." path="/System/" children="//@environments.2/@folders.2" parent="//@environments.2/@folders.0"/>
+    <folders lastRefreshed="1463752998945" id="3" name="amx.platform.apps" description="This folder holds applications that are part of the TIBCO ActiveMatrix Platform." path="/System/amx.platform.apps/" parent="//@environments.2/@folders.1"/>
+  </environments>
+  <hosts xsi:type="ad:AdminSingletonHost" lastRefreshed="1463752997710" status="Running" id="1" name="SystemHost" description="Autobound host" modifiedBy="" lastModified="2016-05-02T17:29:38.951Z" type="TibcoHost" osArch="amd64" osName="Linux" osVersion="2.6.32-504.30.3.el6.x86_64" syncOnRestart="false" machineName="pntva4137.linux.fr.chp.accenture.com" managementUrl="service:jmx:jmxmp://pntva4137.linux.fr.chp.accenture.com:6051">
+    <nodes lastRefreshed="1463752996728" status="Running" id="3" name="BPMNode" description="TIBCO BPM Node" mappings="//@environments.0/@apps.0/@components.0/@mappings.0 //@environments.0/@apps.0/@components.1/@mappings.0 //@environments.0/@apps.0/@components.2/@mappings.0 //@environments.0/@apps.0/@components.3/@mappings.0 //@environments.0/@apps.0/@components.4/@mappings.0 //@environments.0/@apps.0/@components.5/@mappings.0 //@environments.0/@apps.0/@components.6/@mappings.0 //@environments.0/@apps.0/@components.7/@mappings.0 //@environments.0/@apps.0/@components.8/@mappings.0 //@environments.0/@apps.0/@components.9/@mappings.0 //@environments.0/@apps.0/@components.10/@mappings.0 //@environments.0/@apps.0/@components.11/@mappings.0 //@environments.0/@apps.0/@components.12/@mappings.0 //@environments.0/@apps.0/@components.13/@mappings.0 //@environments.0/@apps.0/@components.14/@mappings.0 //@environments.0/@apps.0/@components.15/@mappings.0 //@environments.0/@apps.0/@components.16/@mappings.0 //@environments.0/@apps.0/@components.17/@mappings.0 //@environments.0/@apps.0/@components.18/@mappings.0 //@environments.0/@apps.0/@components.19/@mappings.0 //@environments.0/@apps.0/@components.20/@mappings.0 //@environments.0/@apps.0/@components.21/@mappings.0 //@environments.0/@apps.0/@components.22/@mappings.0 //@environments.0/@apps.0/@components.23/@mappings.0 //@environments.0/@apps.0/@components.24/@mappings.0 //@environments.0/@apps.0/@components.25/@mappings.0 //@environments.0/@apps.0/@components.26/@mappings.0 //@environments.0/@apps.0/@components.27/@mappings.0 //@environments.0/@apps.0/@components.28/@mappings.0 //@environments.0/@apps.0/@components.29/@mappings.0 //@environments.0/@apps.0/@components.30/@mappings.0 //@environments.0/@apps.0/@components.31/@mappings.0 //@environments.0/@apps.0/@components.32/@mappings.0 //@environments.0/@apps.0/@components.33/@mappings.0 //@environments.0/@apps.0/@components.34/@mappings.0 //@environments.0/@apps.0/@components.35/@mappings.0 //@environments.0/@apps.0/@components.36/@mappings.0 //@environments.0/@apps.0/@components.37/@mappings.0 //@environments.0/@apps.0/@components.38/@mappings.0 //@environments.0/@apps.0/@components.39/@mappings.0 //@environments.0/@apps.0/@components.40/@mappings.0 //@environments.0/@apps.0/@components.41/@mappings.0 //@environments.0/@apps.0/@components.42/@mappings.0 //@environments.0/@apps.0/@components.43/@mappings.0 //@environments.0/@apps.1/@components.0/@mappings.0 //@environments.0/@apps.2/@components.0/@mappings.0 //@environments.0/@apps.2/@components.1/@mappings.0 //@environments.0/@apps.2/@components.2/@mappings.0 //@environments.0/@apps.2/@components.3/@mappings.0 //@environments.0/@apps.2/@components.4/@mappings.0 //@environments.0/@apps.2/@components.5/@mappings.0 //@environments.0/@apps.2/@components.6/@mappings.0 //@environments.0/@apps.2/@components.7/@mappings.0 //@environments.0/@apps.2/@components.8/@mappings.0 //@environments.0/@apps.2/@components.9/@mappings.0 //@environments.0/@apps.2/@components.10/@mappings.0 //@environments.0/@apps.2/@components.11/@mappings.0 //@environments.0/@apps.2/@components.12/@mappings.0 //@environments.0/@apps.2/@components.13/@mappings.0 //@environments.0/@apps.2/@components.14/@mappings.0 //@environments.0/@apps.2/@components.15/@mappings.0 //@environments.0/@apps.2/@components.16/@mappings.0 //@environments.0/@apps.2/@components.17/@mappings.0 //@environments.0/@apps.2/@components.18/@mappings.0 //@environments.0/@apps.2/@components.19/@mappings.0 //@environments.0/@apps.2/@components.20/@mappings.0 //@environments.0/@apps.2/@components.21/@mappings.0 //@environments.0/@apps.2/@components.22/@mappings.0 //@environments.0/@apps.2/@components.23/@mappings.0 //@environments.0/@apps.2/@components.24/@mappings.0 //@environments.0/@apps.2/@components.25/@mappings.0 //@environments.0/@apps.2/@components.26/@mappings.0 //@environments.0/@apps.2/@components.27/@mappings.0 //@environments.0/@apps.2/@components.28/@mappings.0 //@environments.0/@apps.2/@components.29/@mappings.0 //@environments.0/@apps.2/@components.30/@mappings.0 //@environments.0/@apps.2/@components.31/@mappings.0 //@environments.0/@apps.2/@components.32/@mappings.0 //@environments.0/@apps.2/@components.33/@mappings.0 //@environments.0/@apps.2/@components.34/@mappings.0 //@environments.0/@apps.2/@components.35/@mappings.0 //@environments.0/@apps.2/@components.36/@mappings.0 //@environments.0/@apps.2/@components.37/@mappings.0 //@environments.0/@apps.3/@components.0/@mappings.0 //@environments.0/@apps.4/@components.0/@mappings.0 //@environments.0/@apps.5/@components.0/@mappings.0 //@environments.0/@apps.5/@components.1/@mappings.0 //@environments.0/@apps.5/@components.2/@mappings.0 //@environments.0/@apps.5/@components.3/@mappings.0 //@environments.0/@apps.6/@components.0/@mappings.0 //@environments.0/@apps.7/@components.0/@mappings.0 //@environments.0/@apps.7/@components.1/@mappings.0 //@environments.0/@apps.7/@components.2/@mappings.0 //@environments.0/@apps.7/@components.3/@mappings.0 //@environments.0/@apps.8/@components.0/@mappings.0 //@environments.0/@apps.8/@components.1/@mappings.0 //@environments.0/@apps.8/@components.2/@mappings.0 //@environments.0/@apps.9/@components.0/@mappings.0 //@environments.0/@apps.11/@components.0/@mappings.0 //@environments.0/@apps.11/@components.1/@mappings.0 //@environments.0/@apps.11/@components.2/@mappings.0 //@environments.0/@apps.11/@components.3/@mappings.0 //@environments.0/@apps.11/@components.4/@mappings.0 //@environments.0/@apps.11/@components.5/@mappings.0 //@environments.0/@apps.11/@components.6/@mappings.0 //@environments.0/@apps.11/@components.7/@mappings.0 //@environments.0/@apps.11/@components.8/@mappings.0 //@environments.0/@apps.11/@components.9/@mappings.0 //@environments.0/@apps.11/@components.10/@mappings.0 //@environments.0/@apps.10/@components.0/@mappings.0 //@environments.0/@apps.10/@components.1/@mappings.0 //@environments.0/@apps.10/@components.2/@mappings.0" envronment="//@environments.0" machine="pntva4137.linux.fr.chp.accenture.com">
+      <resources status="RUNNING" id="41" name="PEHibernateDirectSharedResource" template="//@resourceTemplates.6">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="43" name="amx.bpm.userapp.jmsConnFactoryConf" template="//@resourceTemplates.35">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="46" name="DataSource" template="//@resourceTemplates.3">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="47" name="httpConnector" template="//@resourceTemplates.26">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="48" name="sslServer" template="//@resourceTemplates.25">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="49" name="amx.bpm.keystore.provider" template="//@resourceTemplates.21">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="50" name="KeystoreCsp" template="//@resourceTemplates.20">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="51" name="DEHibernateSharedResource" template="//@resourceTemplates.4">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="52" name="amx.bpm.userapp.jms.request.conf" template="//@resourceTemplates.36">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="53" name="ECHibernateSharedResource" template="//@resourceTemplates.18">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="54" name="amx.bpm.userapp.jndiConnConf" template="//@resourceTemplates.34">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="55" name="BRMHibernateSharedResource" template="//@resourceTemplates.17">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="56" name="WPEmailChannelSMTPSharedResource" template="//@resourceTemplates.15">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="57" name="BDSHibernateSharedResource" template="//@resourceTemplates.10">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="58" name="ldap/de/system" template="//@resourceTemplates.27">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="59" name="jms-truststore" template="//@resourceTemplates.23">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="61" name="ECMCredentialsKeystore" template="//@resourceTemplates.12">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="62" name="amx.bpm.auth.wss.asp" template="//@resourceTemplates.33">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="63" name="amx.bpm.auth.easyAs" template="//@resourceTemplates.32">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="64" name="BDSCaseDataStoreResource" template="//@resourceTemplates.5">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="68" name="PEHibernateSharedResource" template="//@resourceTemplates.8">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="69" name="SCHibernateSharedResource" template="//@resourceTemplates.13">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="70" name="DataSourceDirect" template="//@resourceTemplates.19">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="72" name="amx.bpm.mutual.id.provider" template="//@resourceTemplates.29">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="73" name="amx.bpm.userapp.jmsConnFactory" template="//@resourceTemplates.37">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="74" name="OpenspaceHibernateSharedResource" template="//@resourceTemplates.1">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="75" name="WPHibernateSharedResource" template="//@resourceTemplates.16">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="76" name="amx.bpm.auth.system" template="//@resourceTemplates.31">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="77" name="ldap/de/easyAs" template="//@resourceTemplates.28">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="78" name="BDSCaseDataStoreSharedResource" template="//@resourceTemplates.7">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="79" name="amx.bpm.userapp.threadpool" template="//@resourceTemplates.30">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="80" name="ECHibernateDirectSharedResource" template="//@resourceTemplates.9">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="81" name="jmsSSLConnection" template="//@resourceTemplates.38">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="82" name="DataSourceBDS" template="//@resourceTemplates.11">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="83" name="amx.bpm.truststore.provider" template="//@resourceTemplates.22">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="84" name="ECMIdentityProvider" template="//@resourceTemplates.2">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="85" name="DACHibernateSharedResource" template="//@resourceTemplates.14">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <resources status="RUNNING" id="86" name="LdapAspRT_Identity" template="//@resourceTemplates.24">
+        <scope type="Application" name="amx.bpm.app"/>
+      </resources>
+      <debuggers lastRefreshed="1463752996727" id="Java Debugger:1.0.0:3" name="Java Debugger" type="java.debugger" version="1.0.0">
+        <configuration lastRefreshed="1463752996727" id="debug_port" name="debug_port" key="debug_port" value="6040"/>
+      </debuggers>
+      <debuggers lastRefreshed="1463752996728" id="Platform Debugger:1.0.0:3" name="Platform Debugger" type="platform.debugger" version="1.0.0">
+        <configuration lastRefreshed="1463752996728" id="tcp_port" name="tcp_port" key="tcp_port" value="6042"/>
+      </debuggers>
+      <enabledFeatures lastRefreshed="1463752999018" id="830" name="com.example.expensebom02.model.bds" description="" componentID="com.example.expensebom02.model.bds" version="1.0.0.20160408072522376" provisioned="true"/>
+      <enabledFeatures lastRefreshed="1463752999018" id="838" name="com.example.healthglobaldata.da.bds" description="" componentID="com.example.healthglobaldata.da.bds" version="3.0.0.20160503101322272" provisioned="true"/>
+      <enabledFeatures lastRefreshed="1463752999018" id="839" name="com.example.expensebom02.model.bds" description="" componentID="com.example.expensebom02.model.bds" version="1.0.0.20160503165236861" provisioned="true"/>
+      <enabledFeatures lastRefreshed="1463752999018" id="844" name="com.example.expensebom02.model.bds" description="" componentID="com.example.expensebom02.model.bds" version="1.0.0.20160503151347297" provisioned="true"/>
+      <enabledFeatures lastRefreshed="1463752999018" id="846" name="com.example.healthglobaldata.model.bds" description="" componentID="com.example.healthglobaldata.model.bds" version="3.0.0.20160503101322272" provisioned="true"/>
+      <enabledFeatures lastRefreshed="1463752999018" id="845" name="com.example.healthclaim.model.bds" description="" componentID="com.example.healthclaim.model.bds" version="1.0.0.20160503114347079" provisioned="true"/>
+    </nodes>
+  </hosts>
+  <resourceTemplates lastRefreshed="1463752994217" id="18" name="TIBCO ActiveMatrix Internal HTTP Connector Resource" description="An http connector used by TIBCO Administrator to serve up certain files that runtime hosts and nodes need to access. Used for internal communications in the product. Do not delete this." type="{http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector}HttpConnectorConfiguration" typeName="HTTP Connector">
+    <scope name="Global"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994217" id="29" name="OpenspaceHibernateSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.25" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994217" id="30" name="ECMIdentityProvider" description="" instances="//@hosts.0/@nodes.0/@resources.35" type="{http://xsd.tns.tibco.com/trinity/models/identity/subject}SubjectConfiguration" typeName="Identity Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994217" id="31" name="DataSource" description="AMX-BPM Core XA DataSource" instances="//@hosts.0/@nodes.0/@resources.2" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc}JdbcDataSource" typeName="JDBC">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994218" id="32" name="DEHibernateSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.7" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994218" id="33" name="BDSCaseDataStoreResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.19" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}TeneoSessionFactory" typeName="Teneo">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994218" id="34" name="PEHibernateDirectSharedResource" description="Hibernate Proxy Session Factory for N2PE non XA- Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.0" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994218" id="35" name="BDSCaseDataStoreSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.29" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}TeneoSessionFactory" typeName="Teneo">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994218" id="36" name="PEHibernateSharedResource" description="Hibernate Proxy Session Factory for N2PE XA- Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.20" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994219" id="37" name="ECHibernateDirectSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.31" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994219" id="38" name="BDSHibernateSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.13" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994219" id="39" name="DataSourceBDS" description="AMX-BPM BDS XA DataSource" instances="//@hosts.0/@nodes.0/@resources.33" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc}JdbcDataSource" typeName="JDBC">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994219" id="40" name="ECMCredentialsKeystore" description="Security details for the ECM system" instances="//@hosts.0/@nodes.0/@resources.16" type="{http://xsd.tns.tibco.com/trinity/models/cred/keystore}KeystoreConfiguration" typeName="Keystore Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994219" id="41" name="SCHibernateSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.21" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994220" id="42" name="DACHibernateSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.36" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994220" id="43" name="WPEmailChannelSMTPSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.12" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/smtp}SmtpConfiguration" typeName="SMTP">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994220" id="44" name="WPHibernateSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.26" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994220" id="45" name="BRMHibernateSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.11" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994220" id="46" name="ECHibernateSharedResource" description="Imported from DAA 'com.tibco.amxbpm.fullnode' (version: '1.9.0.048')" instances="//@hosts.0/@nodes.0/@resources.9" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/hibernate}HibernateSessionFactory" typeName="Hibernate">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994221" id="47" name="DataSourceDirect" description="AMX-BPM Core DataSource" instances="//@hosts.0/@nodes.0/@resources.22" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc}JdbcDataSource" typeName="JDBC">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994221" id="48" name="KeystoreCsp" description="This is SSL Client Keystore RT" instances="//@hosts.0/@nodes.0/@resources.6" type="{http://xsd.tns.tibco.com/trinity/models/cred/keystore}KeystoreConfiguration" typeName="Keystore Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994221" id="49" name="amx.bpm.keystore.provider" description="AMX BPM WSS Auth Keystore Provider" instances="//@hosts.0/@nodes.0/@resources.5" type="{http://xsd.tns.tibco.com/trinity/models/cred/keystore}KeystoreConfiguration" typeName="Keystore Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994221" id="50" name="amx.bpm.truststore.provider" description="AMX BPM WSS Auth Truststore Provider" instances="//@hosts.0/@nodes.0/@resources.34" type="{http://xsd.tns.tibco.com/trinity/models/cred/keystore}KeystoreConfiguration" typeName="Keystore Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994221" id="51" name="jms-truststore" description="AMX BPM JMS Truststore Provider" instances="//@hosts.0/@nodes.0/@resources.15" type="{http://xsd.tns.tibco.com/trinity/models/cred/keystore}KeystoreConfiguration" typeName="Keystore Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994222" id="52" name="LdapAspRT_Identity" description="" instances="//@hosts.0/@nodes.0/@resources.37" type="{http://xsd.tns.tibco.com/trinity/models/identity/subject}SubjectConfiguration" typeName="Identity Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994222" id="53" name="sslServer" description="This is SSL Server RT" instances="//@hosts.0/@nodes.0/@resources.4" type="{http://xsd.tns.tibco.com/trinity/models/sslserver}SSLServerConfiguration" typeName="SSL Server Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994222" id="54" name="httpConnector" description="AMX BPM HTTP Connector" instances="//@hosts.0/@nodes.0/@resources.3" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector}HttpConnectorConfiguration" typeName="HTTP Connector">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994222" id="57" name="ldap/de/system" description="This is the system LDAP" instances="//@hosts.0/@nodes.0/@resources.14" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/ldap}LdapConnection" typeName="LDAP Connection">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994222" id="59" name="ldap/de/easyAs" description="This is the easyAS example LDAP" instances="//@hosts.0/@nodes.0/@resources.28" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/ldap}LdapConnection" typeName="LDAP Connection">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994223" id="60" name="amx.bpm.mutual.id.provider" description="AMX BPM WSS Mutual Identity Provider" instances="//@hosts.0/@nodes.0/@resources.23" type="{http://xsd.tns.tibco.com/trinity/models/identity/mip}MIPConfiguration" typeName="Mutual Identity Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994223" id="61" name="amx.bpm.userapp.threadpool" description="AMX BPM User App Thread Pool" instances="//@hosts.0/@nodes.0/@resources.30" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/threadpool}ThreadPoolConfiguration" typeName="Thread Pool">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994223" id="62" name="amx.bpm.auth.system" description="This is System LdapAsp RT" instances="//@hosts.0/@nodes.0/@resources.27" type="{http://xsd.tns.tibco.com/trinity/models/auth/ldap}LDAPConfiguration" typeName="LDAP Authentication">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994223" id="63" name="amx.bpm.auth.easyAs" description="This is System LdapAsp RT" instances="//@hosts.0/@nodes.0/@resources.18" type="{http://xsd.tns.tibco.com/trinity/models/auth/ldap}LDAPConfiguration" typeName="LDAP Authentication">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994224" id="64" name="amx.bpm.auth.wss.asp" description="AMX BPM WSS Auth Provider" instances="//@hosts.0/@nodes.0/@resources.17" type="{http://xsd.tns.tibco.com/trinity/models/auth/wss}WSSConfiguration" typeName="WSS Authentication">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994224" id="66" name="amx.bpm.userapp.jndiConnConf" description="Userapp JNDI for JMS connection" instances="//@hosts.0/@nodes.0/@resources.10" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/jms}JNDIConnection" typeName="JNDI Connection Configuration">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994224" id="68" name="amx.bpm.userapp.jmsConnFactoryConf" description="Userapp inbound JMS connection" instances="//@hosts.0/@nodes.0/@resources.1" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/jms}JMSConnectionFactoryConfiguration" typeName="JMS Connection Factory Configuration">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994224" id="69" name="amx.bpm.userapp.jms.request.conf" description="Userapp request JMS destination" instances="//@hosts.0/@nodes.0/@resources.8" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/jms}JMSDestinationConfiguration" typeName="JMS Destination Configuration">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994224" id="71" name="amx.bpm.userapp.jmsConnFactory" description="Userapp response JMS connection" instances="//@hosts.0/@nodes.0/@resources.24" type="{http://xsd.tns.tibco.com/amf/models/sharedresource/jms}JMSConnectionFactory" typeName="JMS Connection Factory">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <resourceTemplates lastRefreshed="1463752994224" id="72" name="jmsSSLConnection" description="This is JMS SSL RT" instances="//@hosts.0/@nodes.0/@resources.32" type="{http://xsd.tns.tibco.com/trinity/models/sslclient}SSLClientConfiguration" typeName="SSL Client Provider">
+    <scope type="Application" name="amx.bpm.app"/>
+  </resourceTemplates>
+  <appTemplates lastRefreshed="1463752994542" id="com.tibco.governance.mcr.aggregator.daa2.2.0.004" name="com.tibco.governance.mcr.aggregator.daa" description="" version="2.2.0.004" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994542" id="com.tibco.wsdl.validator.app1.0.1.002" name="com.tibco.wsdl.validator.app" description="" version="1.0.1.002" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994543" id="com.tibco.amf.admin.dashboard3.2.0.000" name="com.tibco.amf.admin.dashboard" description="" version="3.2.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994543" id="com.tibco.amx.it.mediation.apt3.5.0.001" name="com.tibco.amx.it.mediation.apt" description="" version="3.5.0.001" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994543" id="com.tibco.governance.sharedresource.mutual.isp.daa3.3.0.000" name="com.tibco.governance.sharedresource.mutual.isp.daa" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994543" id="com.tibco.governance.sharedresource.wss.asp.daa3.3.0.000" name="com.tibco.governance.sharedresource.wss.asp.daa" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994543" id="com.tibco.governance.sharedresource.trust.isp.daa3.3.0.000" name="com.tibco.governance.sharedresource.trust.isp.daa" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994543" id="com.tibco.amxbpm.cmisrepo.server1.0.0.002" name="com.tibco.amxbpm.cmisrepo.server" description="" version="1.0.0.002" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994543" id="com.tibco.commonlogging.payload.daa1.2.0.004" name="com.tibco.commonlogging.payload.daa" description="" version="1.2.0.004" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994544" id="com.tibco.bx.daa1.13.100.006" name="com.tibco.bx.daa" description="" version="1.13.100.006" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994544" id="com.tibco.governance.sharedresource.ldap.asp.daa3.3.0.000" name="com.tibco.governance.sharedresource.ldap.asp.daa" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994544" id="com.tibco.commonlogging.logservice.daa2.2.0.024" name="com.tibco.commonlogging.logservice.daa" description="" version="2.2.0.024" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994544" id="com.tibco.amf.admin.artifactserver1.2.0.001" name="com.tibco.amf.admin.artifactserver" description="" version="1.2.0.001" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994544" id="com.tibco.amf.admin.artifactserver3.3.0.000" name="com.tibco.amf.admin.artifactserver" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994544" id="com.tibco.amxbpm.apacheds1.5.0.001" name="com.tibco.amxbpm.apacheds" description="" version="1.5.0.001" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994544" id="com.tibco.amf.debugger.daa3.3.0.000" name="com.tibco.amf.debugger.daa" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994545" id="com.tibco.amx.platform.daa3.3.0.000" name="com.tibco.amx.platform.daa" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994545" id="com.tibco.governance.agent.amxcomponent.migrator3.3.0.000" name="com.tibco.governance.agent.amxcomponent.migrator" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994545" id="com.tibco.bpm.cm.documentstore1.0.0.002" name="com.tibco.bpm.cm.documentstore" description="" version="1.0.0.002" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994545" id="com.tibco.amxbpm.orgmodel.application1.1.0.001" name="com.tibco.amxbpm.orgmodel.application" description="" version="1.1.0.001" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994545" id="com.tibco.amxbpm.fullnode1.9.0.048" name="com.tibco.amxbpm.fullnode" description="" version="1.9.0.048" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994545" id="com.tibco.governance.sharedresource.subject.isp.daa3.3.0.000" name="com.tibco.governance.sharedresource.subject.isp.daa" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994545" id="com.tibco.governance.sharedresource.jaas.extension.daa3.3.0.000" name="com.tibco.governance.sharedresource.jaas.extension.daa" description="" version="3.3.0.000" readOnly="true"/>
+  <appTemplates lastRefreshed="1463752994545" id="com.example.expenseclaim021.0.0.20160503181734987" name="com.example.expenseclaim02" description="" version="1.0.0.20160503181734987"/>
+  <appTemplates lastRefreshed="1463752994546" id="com.example.complexpatterns1.0.0.20160503121157355" name="com.example.complexpatterns" description="" version="1.0.0.20160503121157355"/>
+  <appTemplates lastRefreshed="1463752994546" id="com.example.expensebom02-11.0.0.20160503151347297" name="com.example.expensebom02-1" description="" version="1.0.0.20160503151347297"/>
+  <appTemplates lastRefreshed="1463752994546" id="com.example.expenseclaim021.0.0.20160503151716999" name="com.example.expenseclaim02" description="" version="1.0.0.20160503151716999"/>
+  <appTemplates lastRefreshed="1463752994546" id="com.example.expenseclaim021.0.0.20160503170112058" name="com.example.expenseclaim02" description="" version="1.0.0.20160503170112058"/>
+  <appTemplates lastRefreshed="1463752994546" id="com.example.expensebom02-11.0.0.20160503165236861" name="com.example.expensebom02-1" description="" version="1.0.0.20160503165236861"/>
+  <appTemplates lastRefreshed="1463752994546" id="com.example.xyzorgmodel021.0.0.20160503163553343" name="com.example.xyzorgmodel02" description="" version="1.0.0.20160503163553343"/>
+  <appTemplates lastRefreshed="1463752994546" id="com.example.healthom1.0.0.20160503113853577" name="com.example.healthom" description="" version="1.0.0.20160503113853577"/>
+  <appTemplates lastRefreshed="1463752994547" id="com.example.xyzorgmodel021.0.0.20160503173118678" name="com.example.xyzorgmodel02" description="" version="1.0.0.20160503173118678"/>
+  <appTemplates lastRefreshed="1463752994547" id="com.example.expenseclaim021.0.0.20160503190410218" name="com.example.expenseclaim02" description="" version="1.0.0.20160503190410218"/>
+  <appTemplates lastRefreshed="1463752994547" id="com.example.expenseclaim021.0.0.20160503180926149" name="com.example.expenseclaim02" description="" version="1.0.0.20160503180926149"/>
+  <appTemplates lastRefreshed="1463752994547" id="com.example.patientcare1.0.0.20160503114809295" name="com.example.patientcare" description="" version="1.0.0.20160503114809295"/>
+  <appTemplates lastRefreshed="1463752994547" id="com.example.expenseclaim021.0.0.20160503173555432" name="com.example.expenseclaim02" description="" version="1.0.0.20160503173555432"/>
+  <appTemplates lastRefreshed="1463752994547" id="com.example.expensebom02-11.0.0.20160503164201191" name="com.example.expensebom02-1" description="" version="1.0.0.20160503164201191"/>
+  <appTemplates lastRefreshed="1463752994547" id="com.example.xyzorgmodel021.0.0.20160503162118723" name="com.example.xyzorgmodel02" description="" version="1.0.0.20160503162118723"/>
+  <appTemplates lastRefreshed="1463752994547" id="com.example.xyzorgmodel021.0.0.20160503151420938" name="com.example.xyzorgmodel02" description="" version="1.0.0.20160503151420938"/>
+  <appTemplates lastRefreshed="1463752994548" id="com.example.xyzorgmodel021.0.0.20160503165307535" name="com.example.xyzorgmodel02" description="" version="1.0.0.20160503165307535"/>
+  <appTemplates lastRefreshed="1463752994548" id="com.example.expensebom02-11.0.0.20160503163008011" name="com.example.expensebom02-1" description="" version="1.0.0.20160503163008011"/>
+  <appTemplates lastRefreshed="1463752994548" id="com.example.expenseclaim021.0.0.20160503162207204" name="com.example.expenseclaim02" description="" version="1.0.0.20160503162207204"/>
+  <appTemplates lastRefreshed="1463752994548" id="com.example.healthom1.0.0.20160503114017402" name="com.example.healthom" description="" version="1.0.0.20160503114017402"/>
+  <appTemplates lastRefreshed="1463752994548" id="com.example.xyzorgmodel021.0.0.20160503190625910" name="com.example.xyzorgmodel02" description="" version="1.0.0.20160503190625910"/>
+  <appTemplates lastRefreshed="1463752994548" id="com.example.xyzorgmodel021.0.0.20160503164333358" name="com.example.xyzorgmodel02" description="" version="1.0.0.20160503164333358"/>
+  <appTemplates lastRefreshed="1463752994549" id="com.example.expenseclaim021.0.0.20160503165511801" name="com.example.expenseclaim02" description="" version="1.0.0.20160503165511801"/>
+  <appTemplates lastRefreshed="1463752994549" id="com.example.healthclaim1.0.0.20160503114347079" name="com.example.healthclaim" description="" version="1.0.0.20160503114347079"/>
+  <appTemplates lastRefreshed="1463752994549" id="com.example.healthglobaldata-33.0.0.20160503101322272" name="com.example.healthglobaldata-3" description="" version="3.0.0.20160503101322272"/>
+  <appTemplates lastRefreshed="1463752994549" id="com.example.expensebom02-11.0.0.20160408072522376" name="com.example.expensebom02-1" description="" version="1.0.0.20160408072522376"/>
+</ad:AdminServer>

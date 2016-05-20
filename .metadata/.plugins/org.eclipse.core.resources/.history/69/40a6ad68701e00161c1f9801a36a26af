@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+    xmlns="http://example.com/expensebom02" xmlns:tns1="http://example.com/expensebom02"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/expensebom02">
+  <xsd:annotation>
+    <xsd:documentation>BOMORIGIN::/ExpenseBOM02/Business Objects/ExpenseBOM02.bom</xsd:documentation>
+  </xsd:annotation>
+  <xsd:complexType ecore:name="Maclasse" id="_Nce2MB5wEeav1bW2ZndGig" name="Maclasse">
+    <xsd:sequence>
+      <xsd:element ecore:name="new1" id="_PfiTEB5wEeav1bW2ZndGig" maxOccurs="1" minOccurs="0"
+          name="new1">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="50"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="MaclasseElement" type="Maclasse"/>
+</xsd:schema>

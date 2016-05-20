@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:et="http://www.tibco.com/forms/model/elemtypes" xmlns:form="http://www.tibco.com/forms/model/form" xmlns:gwt="http://www.tibco.com/forms/model/gwt" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xpdl2="http://www.wfmc.org/2008/XPDL2.1" generated="true" generatorSource="ExpenseClaim02.xpdl#_ISuNsAVvEeaRitq64r9mDw?p=ExpenseClaim02%26s=Process%20Packages%26t=xpdl2%3aActivity%26q=ExpenseClaim02%3a%3aExpenseClaim02%26n=SubmitExpenses?" formatVersion="4.0.0">
+  <form:externalResources>
+    <form:externalResource name="resource.common" uri="pathmap://FORMS_RESOURCES/common.properties" internal="true" localized="true"/>
+    <form:externalResource name="resource.form" uri=".default/ExpenseClaim02/ExpenseClaim02/SubmitExpenses/SubmitExpenses.properties" sfRelative="true" internal="true" localized="true"/>
+  </form:externalResources>
+  <form:dataModel>
+    <form:parameter generated="true" generatorSource="ExpenseClaim02.xpdl#_O8HU0AV1EeaRitq64r9mDw?p=ExpenseClaim02%26s=Process%20Packages%26t=xpdl2%3aDataField%26q=ExpenseClaim02%3a%3aExpenseClaim02%26n=EmployeesDetails?" name="data.EmployeesDetails" label="Employees Details" dataType="uml:Class ExpenseBOM02.bom#_zJv7oMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aClass%26q=com.example.expensebom02%26n=Employee?" type="com.example.expensebom02::Employee" inout="INOUT"/>
+    <form:parameter generated="true" generatorSource="ExpenseClaim02.xpdl#_fSftYAV1EeaRitq64r9mDw?p=ExpenseClaim02%26s=Process%20Packages%26t=xpdl2%3aDataField%26q=ExpenseClaim02%3a%3aExpenseClaim02%26n=DepartementDetails?" name="data.DepartementDetails" label="Departement Details" dataType="uml:Class ExpenseBOM02.bom#_FD1ioMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aClass%26q=com.example.expensebom02%26n=Department?" type="com.example.expensebom02::Department" inout="INOUT"/>
+    <form:parameter generated="true" generatorSource="ExpenseClaim02.xpdl#_qtd74AV1EeaRitq64r9mDw?p=ExpenseClaim02%26s=Process%20Packages%26t=xpdl2%3aDataField%26q=ExpenseClaim02%3a%3aExpenseClaim02%26n=ExpenseReport?" name="data.ExpenseReport" label="Expense Report" dataType="uml:Class ExpenseBOM02.bom#_z6RZoMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aClass%26q=com.example.expensebom02%26n=ExpenseReport?" type="com.example.expensebom02::ExpenseReport" inout="INOUT"/>
+  </form:dataModel>
+  <form:services/>
+  <form:actions/>
+  <form:conditions/>
+  <form:rules>
+    <form:rule generated="true" name="rule.cancel" label="Cancel">
+      <form:event source="#control.cancel" eventType="pathmap://FORMS_LIBRARIES/Standard.library.elemtypes#select" subject="form.control.cancel.select"/>
+      <form:action ref="pathmap://FORMS_LIBRARIES/Standard.library.elemtypes#action.cancel"/>
+    </form:rule>
+    <form:rule generated="true" name="rule.close" label="Close">
+      <form:event source="#control.close" eventType="pathmap://FORMS_LIBRARIES/Standard.library.elemtypes#select" subject="form.control.close.select"/>
+      <form:action ref="pathmap://FORMS_LIBRARIES/Standard.library.elemtypes#action.close"/>
+    </form:rule>
+    <form:rule generated="true" name="rule.submit" label="Submit">
+      <form:event source="#control.submit" eventType="pathmap://FORMS_LIBRARIES/Standard.library.elemtypes#select" subject="form.control.submit.select"/>
+      <form:action ref="pathmap://FORMS_LIBRARIES/Standard.library.elemtypes#action.submit"/>
+    </form:rule>
+  </form:rules>
+  <form:bindings>
+    <form:binding generated="true" direction="bothways" name="_vwVBcB6SEeadpJc2kSc7uw">
+      <form:source target="data.EmployeesDetails" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.EmployeesDetails.value"/>
+      <form:destination target="pane.EmployeesDetails" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value" data="form.pane.EmployeesDetails.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwXdsB6SEeadpJc2kSc7uw">
+      <form:source target="pane.EmployeesDetails" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_4JU0AMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aEmployee%26n=employeeId?" data="form.pane.EmployeesDetails.value.employeeId"/>
+      <form:destination target="control.EmployeesDetails_employeeId" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.EmployeesDetails_employeeId.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwZS4B6SEeadpJc2kSc7uw">
+      <form:source target="pane.EmployeesDetails" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_4mU5EMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aEmployee%26n=firstName?" data="form.pane.EmployeesDetails.value.firstName"/>
+      <form:destination target="control.EmployeesDetails_firstName" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.EmployeesDetails_firstName.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwbIEB6SEeadpJc2kSc7uw">
+      <form:source target="pane.EmployeesDetails" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_47X8AMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aEmployee%26n=lastName?" data="form.pane.EmployeesDetails.value.lastName"/>
+      <form:destination target="control.EmployeesDetails_lastName" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.EmployeesDetails_lastName.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwc9QB6SEeadpJc2kSc7uw">
+      <form:source target="data.DepartementDetails" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.DepartementDetails.value"/>
+      <form:destination target="pane.DepartementDetails" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value" data="form.pane.DepartementDetails.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vweycB6SEeadpJc2kSc7uw">
+      <form:source target="pane.DepartementDetails" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_GDxVoMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aDepartment%26n=deptCode?" data="form.pane.DepartementDetails.value.deptCode"/>
+      <form:destination target="control.DepartementDetails_deptCode" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.DepartementDetails_deptCode.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwgnoB6SEeadpJc2kSc7uw">
+      <form:source target="pane.DepartementDetails" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_GymxkMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aDepartment%26n=deptName?" data="form.pane.DepartementDetails.value.deptName"/>
+      <form:destination target="control.DepartementDetails_deptName" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.DepartementDetails_deptName.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwjD4B6SEeadpJc2kSc7uw">
+      <form:source target="pane.DepartementDetails" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_HiSiEMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aDepartment%26n=managerId?" data="form.pane.DepartementDetails.value.managerId"/>
+      <form:destination target="control.DepartementDetails_managerId" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.DepartementDetails_managerId.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwk5EB6SEeadpJc2kSc7uw">
+      <form:source target="pane.DepartementDetails" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_H5BnEMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aDepartment%26n=location?" data="form.pane.DepartementDetails.value.location"/>
+      <form:destination target="control.DepartementDetails_location" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.DepartementDetails_location.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwmHMB6SEeadpJc2kSc7uw">
+      <form:source target="data.ExpenseReport" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.ExpenseReport.value"/>
+      <form:destination target="pane.ExpenseReport" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value" data="form.pane.ExpenseReport.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwn8YB6SEeadpJc2kSc7uw">
+      <form:source target="pane.ExpenseReport" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_98RDAMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseReport%26n=reportDate?" data="form.pane.ExpenseReport.value.reportDate"/>
+      <form:destination target="control.ExpenseReport_reportDate" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.ExpenseReport_reportDate.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwpxkB6SEeadpJc2kSc7uw">
+      <form:source target="pane.ExpenseReport" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_-kVIkMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseReport%26n=currency?" data="form.pane.ExpenseReport.value.currency"/>
+      <form:destination target="control.ExpenseReport_currency" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.ExpenseReport_currency.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwrmwB6SEeadpJc2kSc7uw">
+      <form:source target="pane.ExpenseReport" feature="http://www.tibco.com/forms/model/elemtypes#//SingletonPanePropertySet/value ExpenseBOM02.bom#_ssKXsMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseReport%26n=expenseitems?" data="form.pane.ExpenseReport.value.expenseitems"/>
+      <form:destination target="pane.ExpenseReport_expenseitems" feature="http://www.tibco.com/forms/model/elemtypes#//CollectionPanePropertySet/value" data="form.pane.ExpenseReport_expenseitems.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwtb8B6SEeadpJc2kSc7uw">
+      <form:source target="pane.ExpenseReport_expenseitems" feature="http://www.tibco.com/forms/model/elemtypes#//CollectionPanePropertySet/value ExpenseBOM02.bom#_B0n0oMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseItems%26n=date?" data="form.pane.ExpenseReport_expenseitems.value.date"/>
+      <form:destination target="control.ExpenseReport_expenseitems_date" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.ExpenseReport_expenseitems_date.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwvRIB6SEeadpJc2kSc7uw">
+      <form:source target="pane.ExpenseReport_expenseitems" feature="http://www.tibco.com/forms/model/elemtypes#//CollectionPanePropertySet/value ExpenseBOM02.bom#_CQn0IMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseItems%26n=expenseCode?" data="form.pane.ExpenseReport_expenseitems.value.expenseCode"/>
+      <form:destination target="control.ExpenseReport_expenseitems_expenseCode" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.ExpenseReport_expenseitems_expenseCode.value"/>
+    </form:binding>
+    <form:binding generated="true" direction="bothways" name="_vwyUcB6SEeadpJc2kSc7uw">
+      <form:source target="pane.ExpenseReport_expenseitems" feature="http://www.tibco.com/forms/model/elemtypes#//CollectionPanePropertySet/value ExpenseBOM02.bom#_C1ZVIMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseItems%26n=amount?" data="form.pane.ExpenseReport_expenseitems.value.amount"/>
+      <form:destination target="control.ExpenseReport_expenseitems_amount" feature="http://www.tibco.com/forms/model/form#//Control/value" data="form.control.ExpenseReport_expenseitems_amount.value"/>
+    </form:binding>
+  </form:bindings>
+  <form:targets>
+    <form:target ref="iProcessWorkspace_10.7"/>
+  </form:targets>
+  <form:defaults>
+    <form:labelProperties position="top"/>
+  </form:defaults>
+  <form:pane elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.vertical" name="pane.content" paneType="com.tibco.forms.panes.vertical">
+    <form:label>Submit Expenses</form:label>
+    <form:visible>true</form:visible>
+    <form:enabled>true</form:enabled>
+    <form:labelProperties visible="true"/>
+    <form:defaults>
+      <form:labelProperties position="top"/>
+    </form:defaults>
+    <form:pane generated="true" generatorSource="ExpenseClaim02.xpdl#_O8HU0AV1EeaRitq64r9mDw?p=ExpenseClaim02%26s=Process%20Packages%26t=xpdl2%3aDataField%26q=ExpenseClaim02%3a%3aExpenseClaim02%26n=EmployeesDetails?" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.vertical" dataType="uml:Class ExpenseBOM02.bom#_zJv7oMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aClass%26q=com.example.expensebom02%26n=Employee?" name="pane.EmployeesDetails" paneType="com.tibco.forms.panes.vertical">
+      <form:label>Employees Details</form:label>
+      <form:hint/>
+      <form:visible>true</form:visible>
+      <form:enabled>true</form:enabled>
+      <form:defaults>
+        <form:labelProperties position="left"/>
+      </form:defaults>
+      <form:control generated="true" generatorSource="ExpenseBOM02.bom#_4JU0AMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aEmployee%26n=employeeId?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.EmployeesDetails_employeeId">
+        <form:propertySet xsi:type="et:TextPropertySet">
+          <et:displayLength>40</et:displayLength>
+          <et:maxLength>50</et:maxLength>
+        </form:propertySet>
+        <form:label>Employee Id</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:required>true</form:required>
+      </form:control>
+      <form:control generated="true" generatorSource="ExpenseBOM02.bom#_4mU5EMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aEmployee%26n=firstName?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.EmployeesDetails_firstName">
+        <form:propertySet xsi:type="et:TextPropertySet">
+          <et:displayLength>40</et:displayLength>
+          <et:maxLength>50</et:maxLength>
+        </form:propertySet>
+        <form:label>First Name</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:required>true</form:required>
+      </form:control>
+      <form:control generated="true" generatorSource="ExpenseBOM02.bom#_47X8AMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aEmployee%26n=lastName?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.EmployeesDetails_lastName">
+        <form:propertySet xsi:type="et:TextPropertySet">
+          <et:displayLength>40</et:displayLength>
+          <et:maxLength>50</et:maxLength>
+        </form:propertySet>
+        <form:label>Last Name</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:required>true</form:required>
+      </form:control>
+    </form:pane>
+    <form:pane generated="true" generatorSource="ExpenseClaim02.xpdl#_fSftYAV1EeaRitq64r9mDw?p=ExpenseClaim02%26s=Process%20Packages%26t=xpdl2%3aDataField%26q=ExpenseClaim02%3a%3aExpenseClaim02%26n=DepartementDetails?" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.vertical" dataType="uml:Class ExpenseBOM02.bom#_FD1ioMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aClass%26q=com.example.expensebom02%26n=Department?" name="pane.DepartementDetails" paneType="com.tibco.forms.panes.vertical">
+      <form:label>Departement Details</form:label>
+      <form:hint/>
+      <form:visible>true</form:visible>
+      <form:enabled>true</form:enabled>
+      <form:defaults>
+        <form:labelProperties position="left"/>
+      </form:defaults>
+      <form:control generated="true" generatorSource="ExpenseBOM02.bom#_GDxVoMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aDepartment%26n=deptCode?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.DepartementDetails_deptCode">
+        <form:propertySet xsi:type="et:TextPropertySet">
+          <et:displayLength>40</et:displayLength>
+          <et:maxLength>50</et:maxLength>
+        </form:propertySet>
+        <form:label>Dept Code</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:required>true</form:required>
+      </form:control>
+      <form:control generated="true" generatorSource="ExpenseBOM02.bom#_GymxkMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aDepartment%26n=deptName?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.DepartementDetails_deptName">
+        <form:propertySet xsi:type="et:TextPropertySet">
+          <et:displayLength>40</et:displayLength>
+          <et:maxLength>50</et:maxLength>
+        </form:propertySet>
+        <form:label>Dept Name</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:required>true</form:required>
+      </form:control>
+      <form:control generated="true" generatorSource="ExpenseBOM02.bom#_HiSiEMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aDepartment%26n=managerId?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.DepartementDetails_managerId">
+        <form:propertySet xsi:type="et:TextPropertySet">
+          <et:displayLength>40</et:displayLength>
+          <et:maxLength>50</et:maxLength>
+        </form:propertySet>
+        <form:label>Manager Id</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:required>true</form:required>
+      </form:control>
+      <form:control generated="true" generatorSource="ExpenseBOM02.bom#_H5BnEMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aDepartment%26n=location?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.optionlist" controlType="com.tibco.forms.controls.optionlist" name="control.DepartementDetails_location">
+        <form:propertySet xsi:type="et:MultiChoicePropertySet">
+          <et:choiceType>enumeration</et:choiceType>
+          <et:choiceEnumeration>ExpenseBOM02.bom#_T8IMkMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aEnumeration%26q=com.example.expensebom02%26n=OfficeLocations?</et:choiceEnumeration>
+        </form:propertySet>
+        <form:label>Location</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:required>true</form:required>
+      </form:control>
+    </form:pane>
+    <form:pane generated="true" generatorSource="ExpenseClaim02.xpdl#_qtd74AV1EeaRitq64r9mDw?p=ExpenseClaim02%26s=Process%20Packages%26t=xpdl2%3aDataField%26q=ExpenseClaim02%3a%3aExpenseClaim02%26n=ExpenseReport?" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.vertical" dataType="uml:Class ExpenseBOM02.bom#_z6RZoMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aClass%26q=com.example.expensebom02%26n=ExpenseReport?" name="pane.ExpenseReport" paneType="com.tibco.forms.panes.vertical">
+      <form:label>Expense Report</form:label>
+      <form:hint/>
+      <form:visible>true</form:visible>
+      <form:enabled>true</form:enabled>
+      <form:defaults>
+        <form:labelProperties position="left"/>
+      </form:defaults>
+      <form:control generated="true" generatorSource="ExpenseBOM02.bom#_98RDAMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseReport%26n=reportDate?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.date" controlType="com.tibco.forms.controls.date" name="control.ExpenseReport_reportDate">
+        <form:propertySet xsi:type="et:DatePropertySet">
+          <et:minRelative>true</et:minRelative>
+          <et:maxRelative>true</et:maxRelative>
+          <et:year min="-20" max="20"/>
+        </form:propertySet>
+        <form:label>Report Date</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:required>false</form:required>
+      </form:control>
+      <form:control generated="true" generatorSource="ExpenseBOM02.bom#_-kVIkMT-EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseReport%26n=currency?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.optionlist" controlType="com.tibco.forms.controls.optionlist" name="control.ExpenseReport_currency">
+        <form:propertySet xsi:type="et:MultiChoicePropertySet">
+          <et:choiceType>enumeration</et:choiceType>
+          <et:choiceEnumeration>ExpenseBOM02.bom#_N0XkIMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aEnumeration%26q=com.example.expensebom02%26n=Currency?</et:choiceEnumeration>
+        </form:propertySet>
+        <form:label>Currency</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:required>false</form:required>
+      </form:control>
+      <form:pane generated="true" generatorSource="ExpenseBOM02.bom#_ssKXsMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseReport%26n=expenseitems?" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.grid" dataType="uml:Class ExpenseBOM02.bom#_AriFoMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aClass%26q=com.example.expensebom02%26n=ExpenseItems?" name="pane.ExpenseReport_expenseitems" paneType="com.tibco.forms.panes.grid">
+        <form:propertySet xsi:type="et:GridPanePropertySet">
+          <et:showNavigator>false</et:showNavigator>
+          <et:supportAddOperation>true</et:supportAddOperation>
+          <et:supportDeleteOperation>true</et:supportDeleteOperation>
+          <et:editable>true</et:editable>
+          <et:sortable>true</et:sortable>
+          <et:rowLabel>{0}</et:rowLabel>
+        </form:propertySet>
+        <form:label>Expense Items</form:label>
+        <form:hint/>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:defaults>
+          <form:labelProperties position="top"/>
+        </form:defaults>
+        <form:control generated="true" generatorSource="ExpenseBOM02.bom#_B0n0oMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseItems%26n=date?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.date" controlType="com.tibco.forms.controls.date" name="control.ExpenseReport_expenseitems_date">
+          <form:propertySet xsi:type="et:DatePropertySet">
+            <et:minRelative>true</et:minRelative>
+            <et:maxRelative>true</et:maxRelative>
+            <et:year min="-20" max="20"/>
+          </form:propertySet>
+          <form:label>Date</form:label>
+          <form:hint/>
+          <form:visible>true</form:visible>
+          <form:enabled>true</form:enabled>
+          <form:required>false</form:required>
+        </form:control>
+        <form:control generated="true" generatorSource="ExpenseBOM02.bom#_CQn0IMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseItems%26n=expenseCode?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.optionlist" controlType="com.tibco.forms.controls.optionlist" name="control.ExpenseReport_expenseitems_expenseCode">
+          <form:propertySet xsi:type="et:MultiChoicePropertySet">
+            <et:choiceType>enumeration</et:choiceType>
+            <et:choiceEnumeration>ExpenseBOM02.bom#_aL13IMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aEnumeration%26q=com.example.expensebom02%26n=ExpenseCodes?</et:choiceEnumeration>
+          </form:propertySet>
+          <form:label>Expense Code</form:label>
+          <form:hint/>
+          <form:visible>true</form:visible>
+          <form:enabled>true</form:enabled>
+          <form:required>false</form:required>
+        </form:control>
+        <form:control generated="true" generatorSource="ExpenseBOM02.bom#_C1ZVIMT_EeWQyOTcUMHulw?p=ExpenseBOM02%26s=Business%20Objects%26t=uml%3aProperty%26q=com.example.expensebom02%3a%3aExpenseItems%26n=amount?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.ExpenseReport_expenseitems_amount">
+          <form:propertySet xsi:type="et:TextPropertySet">
+            <et:numeric>true</et:numeric>
+            <et:formatRef>resource.common.format_decimal</et:formatRef>
+          </form:propertySet>
+          <form:label>Amount</form:label>
+          <form:hint/>
+          <form:visible>true</form:visible>
+          <form:enabled>true</form:enabled>
+          <form:required>false</form:required>
+        </form:control>
+      </form:pane>
+    </form:pane>
+  </form:pane>
+  <form:pane gwt:toolbar="true" styleClass="toolbar" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.horizontal" name="pane.toolbar" paneType="com.tibco.forms.panes.horizontal">
+    <form:label>Toolbar</form:label>
+    <form:visible>true</form:visible>
+    <form:enabled>true</form:enabled>
+    <form:labelProperties visible="false"/>
+    <form:control elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.button" controlType="com.tibco.forms.controls.button" name="control.cancel">
+      <form:propertySet xsi:type="et:ButtonPropertySet"/>
+      <form:label>Cancel</form:label>
+      <form:visible>true</form:visible>
+      <form:enabled>true</form:enabled>
+      <form:required>false</form:required>
+    </form:control>
+    <form:control elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.button" controlType="com.tibco.forms.controls.button" name="control.close">
+      <form:propertySet xsi:type="et:ButtonPropertySet"/>
+      <form:label>Close</form:label>
+      <form:visible>true</form:visible>
+      <form:enabled>true</form:enabled>
+      <form:required>false</form:required>
+    </form:control>
+    <form:control elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.button" controlType="com.tibco.forms.controls.button" name="control.submit">
+      <form:propertySet xsi:type="et:ButtonPropertySet">
+        <et:type>primary</et:type>
+      </form:propertySet>
+      <form:label>Submit</form:label>
+      <form:visible>true</form:visible>
+      <form:enabled>true</form:enabled>
+      <form:required>false</form:required>
+    </form:control>
+  </form:pane>
+  <form:pane elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.messages" name="pane.messages" paneType="com.tibco.forms.panes.messages">
+    <form:propertySet xsi:type="et:MessagesPanePropertySet"/>
+    <form:label>Invalid Entries</form:label>
+    <form:visible>true</form:visible>
+    <form:enabled>true</form:enabled>
+    <form:labelProperties visible="false"/>
+  </form:pane>
+</form:form>

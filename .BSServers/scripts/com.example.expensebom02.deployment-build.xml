@@ -1,0 +1,87 @@
+<project default="all">
+	<!-- TIBCO ActiveMatrix installation location-->
+	<property name="ADMIN-HOME" value="/opt/tools/TibcoStudio/Home/administrator/3.3"/>
+	<property name="remote-properties.file" value="${basedir}/remote_props.properties"/>
+	
+	
+	<!-- Import TIBCO Administrator CLI tasks and classes -->
+	<import file="${ADMIN-HOME}/scripts/basic_cli.xml" />
+	
+	<!-- Default task for this build file -->
+	<target name="all" 
+		depends="upload.daa, upgrade.app, distribute.app, edit.properties, deploy.app"
+		description="Default target group, execute following targets: upload.daa, upgrade.app, distribute.app, edit.properties, deploy.app"/>
+	
+
+	<!-- Upload DAA specified in the data file -->
+	<target name="upload.daa" description="Uploading Application">
+  		<AMXAdminTask 
+			action="add" 
+			objectSelector="DAA" 
+			remote="true" 
+			propsFile="${remote-properties.file}" 
+			dataFile="${basedir}/com.example.expensebom02.deployment-config.xml" 
+			overwrite="false" merge="true" createIfNotExists="true" 
+			force="false" failOnError="false" /> 
+	</target>  		
+
+	<!-- upgrade existing application -->
+	<target name="upgrade.app" description="Upgrade Existing Application">
+		<AMXAdminTask remote="true" propsFile="${remote-properties.file}" 
+			action="upgrade" dataFile="${basedir}/com.example.expensebom02.deployment-config.xml" 
+			objectSelector="Environment//Application" 
+			overwrite="false" merge="true" 
+			createIfNotExists="true" force="false" failOnError="true" />
+	</target>
+
+ 
+	<target name="distribute.app" description="Distributing Application">
+	<AMXAdminTask
+			action="set"
+			objectSelector="Environment//Application//Component/Node | Environment//Application//PromotedService//Binding/Node | Environment//Application//PromotedReference//Binding/Node"
+			remote="true"
+			propsFile="${remote-properties.file}"
+			dataFile="${basedir}/com.example.expensebom02.deployment-config.xml"
+			overwrite="false"
+			merge="true"
+			createIfNotExists="true"
+			force="false"
+			failOnError="false"/>
+	
+	</target>
+
+
+	<!-- configure properties of the application, and create resource instances if needed -->
+	<target name="edit.properties" description="Editing Properties" depends="createResourceInstances">		
+	
+	  <!-- override values for properties -->
+		<AMXAdminTask remote="true" propsFile="${remote-properties.file}" 
+			action="edit" dataFile="${basedir}/com.example.expensebom02.deployment-config.xml" 
+			objectSelector="//Property" 
+			overwrite="false" merge="true" 
+			createIfNotExists="true" force="false" failOnError="true" />			
+		
+			
+		
+	</target>
+	
+	<!-- createResourceInstances target will not get executed if property 'doNotInstallInstances' is set to any value -->
+	<target name="createResourceInstances" description="creates resource templates and instances" unless="ignoreResourceInstances">
+		
+		
+		
+		
+	</target>
+
+
+	<!-- deploy the application -->
+	<target name="deploy.app" description="Deploying Application">
+		<AMXAdminTask remote="true" propsFile="${remote-properties.file}" 
+			action="deploy" dataFile="${basedir}/com.example.expensebom02.deployment-config.xml" 
+			objectSelector="Environment//Application" 
+			overwrite="false" merge="true" 
+			createIfNotExists="true" force="false" failOnError="true"
+			options="handleDependencies"/>
+	</target>
+
+</project>

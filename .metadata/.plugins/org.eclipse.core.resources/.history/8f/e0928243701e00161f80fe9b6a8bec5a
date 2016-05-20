@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <uml:Model xmi:id="_AB6HcB5wEeav1bW2ZndGig" name="com.example.expensebom02">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AB6HcR5wEeav1bW2ZndGig" source="model.metadata">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AB6ugB5wEeav1bW2ZndGig" key="author" value="kronosuser"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AB6ugR5wEeav1bW2ZndGig" key="created" value="1463737706854"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AB6ugh5wEeav1bW2ZndGig" key="version" value="4"/>
+    </eAnnotations>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BzTMkB5wEeav1bW2ZndGig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BzXeAB5wEeav1bW2ZndGig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://GLOBALDATA_PROFILES/BOMGlobalData.profile.uml#_-r7KEXyPEeCumvZ6xHSUiw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://GLOBALDATA_PROFILES/BOMGlobalData.profile.uml#_20kHsWs1EeC_hvle0zpSaA?BOM%20Global%20Data%20Profile?"/>
+    </profileApplication>
+  </uml:Model>
+  <notation:Diagram xmi:id="_AEC1cB5wEeav1bW2ZndGig" type="Business Object Model" element="_AB6HcB5wEeav1bW2ZndGig?com.example.expensebom02?" name="ExpenseBOM02.bom" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_AEC1cR5wEeav1bW2ZndGig"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_AEC1ch5wEeav1bW2ZndGig"/>
+  </notation:Diagram>
+</xmi:XMI>

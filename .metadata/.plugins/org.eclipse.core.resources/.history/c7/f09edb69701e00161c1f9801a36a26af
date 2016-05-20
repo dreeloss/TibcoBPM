@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="com.example.expensebom02">
+    <globalDestinations>
+      <destination type="BPM"/>
+    </globalDestinations>
+  </projectDetails>
+  <config:assetTypes id="com.tibco.xpd.asset.bom" version="4"/>
+  <config:assetTypes id="com.tibco.xpd.asset.wsdl"/>
+  <config:assetTypes id="com.tibco.xpd.asset.businessdata.bom"/>
+  <config:specialFolders>
+    <config:folder id="___qEsB5vEeav1bW2ZndGig" kind="bom" location="Business Objects"/>
+    <config:folder id="_Bxz-0B5wEeav1bW2ZndGig" kind="formsBOM" location=".forms/bom"/>
+    <config:folder id="_Byt9wB5wEeav1bW2ZndGig" kind="wsdl" location="Service Descriptors"/>
+    <config:folder id="_DTP8YB5wEeav1bW2ZndGig" kind="bom2xsd" location=".bom2Xsd"/>
+  </config:specialFolders>
+</config:ProjectConfig>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.tibco.bx.debug.launchType">
+<intAttribute key="EngineSize" value="1"/>
+<stringAttribute key="ConnectionFactoryType0" value="http"/>
+<stringAttribute key="EndPointURI0" value="/bxEngine/node/ProcessDebugger/"/>
+<stringAttribute key="EngineAddress0" value="localhost"/>
+<stringAttribute key="EnginePort0" value="8181"/>
+<stringAttribute key="Url0" value="http://localhost:8181/bxEngine/node/ProcessDebugger/"/>
+<stringAttribute key="ModelType0" value="bpm"/>
+<stringAttribute key="Password0" value="secret"/>
+<stringAttribute key="UserName0" value="tibco-admin"/>
+<stringAttribute key="SoapVersion0" value="1.1"/>
+</launchConfiguration>

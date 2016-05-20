@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/.com.example.expensebom02.bds/src" modelPluginID="com.example.expensebom02.bds" templateDirectory="platform:/resource/.bdsTemplates" dynamicTemplates="true" modelName="com.example.expensebom02.bds" updateClasspath="false" featureMapWrapperInterface="com.example.expensebom02.bdsutil.BDSFeatureMap" featureMapWrapperInternalInterface="com.example.expensebom02.bdsutil.BDSFeatureMap" featureMapWrapperClass="com.example.expensebom02.bdsutil.BDSFeatureMapImpl" complianceLevel="6.0" copyrightFields="false" runtimeVersion="2.4">
+  <genAnnotations source="BDS-Manifest">
+    <details key="version" value="1.0.0.qualifier"/>
+    <details key="binFolder" value="bin/"/>
+    <details key="bdsutilPackage" value="com.example.expensebom02.bdsutil"/>
+    <details key="Globaldata" value="true"/>
+  </genAnnotations>
+  <genPackages prefix="Expensebom02" basePackage="com.example" disposableProviderFactory="true">
+    <ecorePackage href="com.example.expensebom02.bds.ecore#/"/>
+    <genEnums typeSafeEnumCompatible="false">
+      <ecoreEnum href="com.example.expensebom02.bds.ecore#//Currency"/>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//Currency/USD"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//Currency/GBP"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//Currency/AUD"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//Currency/EUR"/>
+      </genEnumLiterals>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false">
+      <ecoreEnum href="com.example.expensebom02.bds.ecore#//ExpenseCodes"/>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//ExpenseCodes/ENT01"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//ExpenseCodes/ACC02"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//ExpenseCodes/MEA03"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//ExpenseCodes/TAX04"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//ExpenseCodes/FLI05"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//ExpenseCodes/MIS06"/>
+      </genEnumLiterals>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false">
+      <ecoreEnum href="com.example.expensebom02.bds.ecore#//OfficeLocations"/>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//OfficeLocations/PALOALTO"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//OfficeLocations/SWINDON"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//OfficeLocations/SYDNEY"/>
+      </genEnumLiterals>
+      <genEnumLiterals>
+        <ecoreEnumLiteral href="com.example.expensebom02.bds.ecore#//OfficeLocations/PARIS"/>
+      </genEnumLiterals>
+    </genEnums>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//currencyElementType"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//CurrencyObject"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//deptCode_DepartmentType"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//deptName_DepartmentType"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//DoubleStudioGeneratedTemplate"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//DoubleStudioGeneratedTemplateObject"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//employeeId_EmployeeType"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//expenseCodesElementType"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//ExpenseCodesObject"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//firstName_EmployeeType"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//lastName_EmployeeType"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//managerId_DepartmentType"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//officeLocationsElementType"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="com.example.expensebom02.bds.ecore#//OfficeLocationsObject"/>
+    </genDataTypes>
+    <genClasses>
+      <ecoreClass href="com.example.expensebom02.bds.ecore#//Department"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//Department/deptCode"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//Department/deptName"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//Department/managerId"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//Department/location"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="com.example.expensebom02.bds.ecore#//DocumentRoot"/>
+      <genFeatures property="None" notify="false" createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//DocumentRoot/mixed"/>
+      </genFeatures>
+      <genFeatures property="None" notify="false" createChild="false">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/xMLNSPrefixMap"/>
+      </genFeatures>
+      <genFeatures property="None" notify="false" createChild="false">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/xSISchemaLocation"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//DocumentRoot/currencyElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/departmentElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/employeeElement"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//DocumentRoot/expenseCodesElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/expenseItemsElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/expenseReportElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/managerElement"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//DocumentRoot/officeLocationsElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/departmentBDSInternalSerializationElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/employeeBDSInternalSerializationElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/expenseItemsBDSInternalSerializationElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/expenseReportBDSInternalSerializationElement"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//DocumentRoot/managerBDSInternalSerializationElement"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="com.example.expensebom02.bds.ecore#//Employee"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//Employee/employeeId"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//Employee/firstName"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//Employee/lastName"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="com.example.expensebom02.bds.ecore#//ExpenseItems"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//ExpenseItems/date"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//ExpenseItems/expenseCode"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//ExpenseItems/amount"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="com.example.expensebom02.bds.ecore#//ExpenseReport"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//ExpenseReport/reportDate"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//ExpenseReport/currency"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="com.example.expensebom02.bds.ecore#//ExpenseReport/expenseitems"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="com.example.expensebom02.bds.ecore#//Manager"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="com.example.expensebom02.bds.ecore#//Manager/approvalLimit"/>
+      </genFeatures>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

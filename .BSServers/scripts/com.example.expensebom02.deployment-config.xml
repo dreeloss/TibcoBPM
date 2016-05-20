@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amxdata_base:Enterprise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:amxdata="http://tibco.com/amxadministrator/command/line/types" xmlns:amxdata_base="http://tibco.com/amxadministrator/command/line/types_base" xmlns:amxdata_reference="http://tibco.com/amxadministrator/command/line/types_reference" xsi:schemaLocation="http://tibco.com/amxadministrator/command/line/types platform:/plugin/com.tibco.amf.tools.admincligen/model/cli_data.ecore#//types http://tibco.com/amxadministrator/command/line/types_base platform:/plugin/com.tibco.amf.tools.admincligen/model/cli_data.ecore http://tibco.com/amxadministrator/command/line/types_reference platform:/plugin/com.tibco.amf.tools.admincligen/model/cli_data.ecore#//types/types_reference">
+  <Environment xsi:type="amxdata:Environment" name="BPMEnvironment">
+    <Application xsi:type="amxdata:Application" name="com.example.expensebom02-1" distributionPolicy="PRODUCT_APP" folderPath="/" resourceTemplatesScope="application">
+      <Component xsi:type="amxdata_base:Component_base" name="BDS"/>
+      <Property xsi:type="amxdata:Property" name="BDSCaseDataStoreResource" value="BDSCaseDataStoreResource"/>
+      <DAA xsi:type="amxdata:DAA" location="/home/kronosuser/workspace/ExpenseBOM02/.bpm/com.example.expensebom02.daa"/>
+      <TargetApplication xsi:type="amxdata_reference:Application_reference" name="amx.bpm.app"/>
+    </Application>
+  </Environment>
+  <DAA xsi:type="amxdata:DAA" location="/home/kronosuser/workspace/ExpenseBOM02/.bpm/com.example.expensebom02.daa">
+    <importFeatureIdentifier>com.example.expensebom02.model.bds:1.0.0.20160408072522376</importFeatureIdentifier>
+  </DAA>
+  <Feature xsi:type="amxdata_base:FeatureID" componentID="com.example.expensebom02.model.bds" version="1.0.0.20160408072522376"/>
+  <AppTemplate xsi:type="amxdata_base:AppTemplateID" name="com.example.expensebom02-1" version="1.0.0"/>
+</amxdata_base:Enterprise>

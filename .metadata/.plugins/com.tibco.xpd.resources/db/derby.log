@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri May 20 15:52:17 CEST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0154-ce70-2586-ffff9e77f724 
+on database directory /home/kronosuser/workspace/.metadata/.plugins/com.tibco.xpd.resources/db/TibcoResources with class loader org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader@46981aeb 
+Loaded from file:/opt/tools/TibcoStudio/Home/eclipse-platform/bundlepool/1.0/org.eclipse.equinox.p2.touchpoint.eclipse/plugins/com.tibco.xpd.tpcl.org.apache.derby_10.11.1.001.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_55-b13
+user.dir=/opt/tools/TibcoStudio/Home/studio/3.6/eclipse
+os.name=Linux
+os.arch=amd64
+os.version=2.6.32-358.el6.x86_64
+derby.system.home=/home/kronosuser/workspace/.metadata/.plugins/com.tibco.xpd.resources/db/
+Database Class Loader started - derby.database.classpath=''

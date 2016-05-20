@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.tibco.xpd.deploy.model:ServerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.tibco.xpd.deploy.model="http:///com/tibco/xpd/deploy/model.ecore">
+  <servers id="localDevServer" name="Local Development Server" serverType="com.tibco.amf.tools.admincligen.adminserver">
+    <serverConfig>
+      <configParameters key="serverUrl" value="http://localhost:8120"/>
+      <configParameters key="userName" value="root"/>
+      <configParameters key="userPassword" value="TAPE1[7m&lt;15&lt;*\'5w*Y L!t!?8gR?x6H9vgh+mMcR^46j((#h$,,=h~4%:$Vq07c"/>
+      <configParameters key="httpAuthType" value="false"/>
+      <configParameters key="filterUserApps" value="true"/>
+      <configParameters key="environmentName" value="BPMEnvironment"/>
+      <configParameters key="filterEnvironments" value="true"/>
+      <configParameters key="defaultAppFolderName" value="/amx.bpm.app/"/>
+      <configParameters key="applicationName" value="amx.bpm.app"/>
+    </serverConfig>
+    <repository repositoryType="com.tibco.xpd.deploy.ui.WorkspaceRpository">
+      <repositoryConfig/>
+    </repository>
+  </servers>
+  <servers id="_8nCOIB6SEeadpJc2kSc7uw" name="BPMServer" serverType="com.tibco.amf.tools.admincligen.adminserver">
+    <serverConfig>
+      <configParameters key="serverUrl" value="http://10.105.65.201:8120"/>
+      <configParameters key="userName" value="root"/>
+      <configParameters key="userPassword">
+        <value xsi:nil="true"/>
+      </configParameters>
+      <configParameters key="httpAuthType" value="false"/>
+      <configParameters key="filterUserApps" value="true"/>
+      <configParameters key="environmentName" value="BPMEnvironment"/>
+      <configParameters key="filterEnvironments" value="true"/>
+      <configParameters key="defaultAppFolderName" value=""/>
+      <configParameters key="applicationName" value="amx.bpm.app"/>
+    </serverConfig>
+    <repository repositoryType="com.tibco.xpd.deploy.ui.WorkspaceRpository">
+      <repositoryConfig/>
+    </repository>
+  </servers>
+  <serverTypes name="Administrator Server" description="" lastExtensionId="com.tibco.amf.tools.admindata.model" id="com.tibco.amf.tools.admincligen.adminserver" supportedRepositoryTypes="com.tibco.xpd.deploy.ui.WorkspaceRpository"/>
+  <serverTypes name="WebDAV Server" description="" lastExtensionId="com.tibco.xpd.deploy.webdavjmx" id="com.tibco.xpd.deploy.webdavjmx.genericWebDav" supportedRepositoryTypes="com.tibco.xpd.deploy.ui.WorkspaceRpository"/>
+  <repositoryTypes name="Local Folder" description="" lastExtensionId="com.tibco.xpd.deploy.ui" id="com.tibco.xpd.deploy.ui.LocalFolderRpository"/>
+  <repositoryTypes name="Workspace" description="" lastExtensionId="com.tibco.xpd.deploy.ui" id="com.tibco.xpd.deploy.ui.WorkspaceRpository"/>
+  <repositoryTypes name="WebDAV" description="" lastExtensionId="com.tibco.xpd.deploy.webdavjmx" id="com.tibco.xpd.deploy.ui.WebDavRepository"/>
+</com.tibco.xpd.deploy.model:ServerContainer>

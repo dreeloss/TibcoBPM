@@ -1,0 +1,38 @@
+20 May 2016 16:02:44,497 INFO  (AMXAdminTask.java:330)     - Connecting to AMX Admin server at 'http://10.105.65.201:8120' as user 'root'.
+20 May 2016 16:02:47,416 INFO  (AMXAdminTask.java:289)     - Processing 1 objects
+20 May 2016 16:02:49,810 INFO  (AddAction.java:54)     - Uploading DAA...
+20 May 2016 16:02:49,819 INFO  (AddAction.java:56)     - DAA location: /home/kronosuser/workspace/ExpenseBOM02/.bpm/com.example.expensebom02.daa
+20 May 2016 16:02:51,899 INFO  (AddAction.java:142)     - Successfully added Application Template 'com.example.expensebom02-1' (version: '1.0.0.20160408072522376') to the Administrator Staging Area
+20 May 2016 16:02:51,903 INFO  (AddAction.java:161)     - Successfully added Feature 'com.example.expensebom02.model.bds' (version: '1.0.0.20160408072522376') to the Administrator Staging Area
+20 May 2016 16:02:51,915 INFO  (Processor.java:675)     - Action finished at 5/20/16 4:02 PM in 2.103 seconds
+20 May 2016 16:02:52,095 INFO  (AMXAdminTask.java:289)     - Processing 1 objects
+20 May 2016 16:02:53,542 INFO  (UpgradeAction.java:31)     - Upgrading application...
+20 May 2016 16:02:53,545 INFO  (AddAction.java:54)     - Uploading DAA...
+20 May 2016 16:02:53,548 INFO  (AddAction.java:56)     - DAA location: /home/kronosuser/workspace/ExpenseBOM02/.bpm/com.example.expensebom02.daa
+20 May 2016 16:02:54,081 WARN  (AddAction.java:151)     - Application Template 'com.example.expensebom02-1' (version: '1.0.0.20160408072522376') was ignored and not added to the Administrator Staging Area, because it already exists.
+20 May 2016 16:02:54,084 WARN  (AddAction.java:198)     - Feature 'com.example.expensebom02.model.bds' (version: '1.0.0.20160408072522376') was ignored and not added to the Administrator Staging Area, because it already exists.
+20 May 2016 16:03:01,457 WARN  (LoggingUtil.java:124)     - Successfully upgraded application 'com.example.expensebom02-1' to application template version 1.0.0.20160408072522376
+20 May 2016 16:03:01,460 WARN  (LoggingUtil.java:178)     - 5/20/16 4:03 PM - 	  detail = TIBCO-AMX-ADMIN-012430: If you deploy this new version, capability 'com.example.expensebom02.bds.capability'  provided by component 'BDS' will be removed. The following components, that are using it, may stop working correctly:Component 'WorkPresentation' from application 'com.example.expenseclaim02'Component 'ExpenseClaim02PageFlow' from application 'com.example.expenseclaim02'Component 'ExpenseClaim02ProcessFlow' from application 'com.example.expenseclaim02'Component 'BRM' from application 'com.example.expenseclaim02'.
+
+20 May 2016 16:03:01,465 INFO  (LoggingUtil.java:182)     - 5/20/16 4:03 PM - 	  detail = Component 'BDS' upgraded from version '1.0.0.20160503165236861' to version: '1.0.0.20160408072522376'.
+
+20 May 2016 16:03:01,469 INFO  (Processor.java:675)     - Action finished at 5/20/16 4:03 PM in 7.926 seconds
+20 May 2016 16:03:01,515 INFO  (AMXAdminTask.java:289)     - Processing 0 objects
+20 May 2016 16:03:03,645 INFO  (AMXAdminTask.java:289)     - Processing 1 objects
+20 May 2016 16:03:03,925 INFO  (EditAction.java:27)     - Editing properties..
+20 May 2016 16:03:04,021 INFO  (Processor.java:751)     - Action finished at 5/20/16 4:03 PM in 0.094 seconds
+20 May 2016 16:03:04,042 INFO  (AMXAdminTask.java:289)     - Processing 1 objects
+20 May 2016 16:03:04,134 INFO  (DeployAction.java:38)     - Deploying application...
+20 May 2016 16:03:08,052 INFO  (LoggingUtil.java:119)     - Deploying Application 'com.example.expensebom02-1' in background : TIBCO-AMX-ADMIN-012015: Deployment succeeded for application 'com.example.expensebom02-1' at 5/20/16 4:03 PM on node(s): 'BPMNode'.
+20 May 2016 16:03:08,055 INFO  (LoggingUtil.java:182)     - 5/20/16 4:03 PM - 	  detail = TIBCO-AMX-ADMIN-012146: Feature 'com.example.expensebom02.model.bds.1.0.0.20160408072522376' was auto-enabled in node 'BPMNode'
+
+20 May 2016 16:03:08,059 INFO  (Processor.java:696)     - Action finished in Admin at 5/20/16 4:03 PM in 3.926 seconds. Waiting for runtime tasks to be finished.
+20 May 2016 16:03:09,880 INFO  (AsyncActionExecutor.java:117)     - .
+20 May 2016 16:03:13,339 INFO  (DeployActionTaskProgressIndicator.java:73)     - The following tasks related to removal of earlier versions of the application are pending :
+20 May 2016 16:03:13,342 INFO  (DeployActionTaskProgressIndicator.java:78)     - Prepare for undeploy component 'BDS' pending on node 'BPMNode' (waiting for runtime to complete this action)
+20 May 2016 16:03:13,350 INFO  (DeployActionTaskProgressIndicator.java:78)     - Unconfigure admin component 'BDS' pending on  (waiting for following dependencies to complete: Prepare for undeploy component 'BDS')
+20 May 2016 16:03:13,355 INFO  (DeployActionTaskProgressIndicator.java:78)     - Undeploy application 'com.example.expensebom02-1' pending on node 'BPMNode' (waiting for following dependencies to complete: Prepare for undeploy component 'BDS', Unconfigure admin component 'BDS')
+20 May 2016 16:03:13,358 INFO  (DeployActionTaskProgressIndicator.java:78)     - Undeploy component 'BDS' pending on node 'BPMNode' (waiting for following dependencies to complete: Undeploy application 'com.example.expensebom02-1')
+20 May 2016 16:03:13,360 INFO  (DeployActionTaskProgressIndicator.java:78)     - Cleanup Features node 'BPMNode' pending on node 'BPMNode' (waiting for following dependencies to complete: Undeploy component 'BDS')
+20 May 2016 16:03:13,363 INFO  (DeployActionTaskProgressIndicator.java:78)     - Uninstall application 'com.example.expensebom02-1' pending on node 'BPMNode' (waiting for following dependencies to complete: Undeploy component 'BDS')
+20 May 2016 16:03:13,367 INFO  (Processor.java:736)     - Action finished in runtime at 5/20/16 4:03 PM in 9.233 seconds
